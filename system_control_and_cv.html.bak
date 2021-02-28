@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>system_control_and_cv</title>
+  </head>
+  <body>
+    <h1>Система управления и технического зрения</h1>
+    <p>Qt - интерфейс</p>
+    <p>OpenCV - распознавание маркера</p>
+    <p>SFML - симулятор</p>
+    <p><br>
+    </p>
+    <p><br>
+    </p>
+    <p>LD_PRELOAD. LD_PRELOAD=/path/to/your/curl/libcurl.so.4</p>
+    <p><a href="https://www.firststeps.ru/linux/r.php?7">https://www.firststeps.ru/linux/r.php?7</a></p>
+    <p><br>
+    </p>
+    <p>-2.5.1-linux-gcc-64-bit/SFML-2.5.1/lib$ ldd island <br>
+      &nbsp;&nbsp;&nbsp; linux-vdso.so.1 (0x00007ffddc3fa000)<br>
+      &nbsp;&nbsp;&nbsp; libsfml-graphics.so.2.5 =&gt; not found<br>
+      &nbsp;&nbsp;&nbsp; libsfml-window.so.2.5 =&gt; not found<br>
+      &nbsp;&nbsp;&nbsp; libsfml-system.so.2.5 =&gt; not found<br>
+      &nbsp;&nbsp;&nbsp; libstdc++.so.6 =&gt;
+      /usr/lib/x86_64-linux-gnu/libstdc++.so.6 (0x00007ffa7559d000)<br>
+      &nbsp;&nbsp;&nbsp; libm.so.6 =&gt; /lib/x86_64-linux-gnu/libm.so.6
+      (0x00007ffa751ff000)<br>
+      &nbsp;&nbsp;&nbsp; libgcc_s.so.1 =&gt; /lib/x86_64-linux-gnu/libgcc_s.so.1
+      (0x00007ffa74fe7000)<br>
+      &nbsp;&nbsp;&nbsp; libc.so.6 =&gt; /lib/x86_64-linux-gnu/libc.so.6
+      (0x00007ffa74bf6000)<br>
+      &nbsp;&nbsp;&nbsp; /lib64/ld-linux-x86-64.so.2 (0x00007ffa75b31000)</p>
+    <p><br>
+    </p>
+    <p><a href="https://stackoverflow.com/questions/28272950/opencv-mat-to-sfml-image">https://stackoverflow.com/questions/28272950/opencv-mat-to-sfml-image</a></p>
+    <p><br>
+    </p>
+    <p><a href="https://jack.kiev.ua/docs/Linux-FAQ/Linux-FAQ-05.html">https://jack.kiev.ua/docs/Linux-FAQ/Linux-FAQ-05.html</a></p>
+    <p><a href="https://www.ibm.com/developerworks/ru/library/l-lpic1-v3-102-3/index.html">https://www.ibm.com/developerworks/ru/library/l-lpic1-v3-102-3/index.html</a></p>
+    <p><br>
+    </p>
+    <p>export LD_LIBRARY_PATH=/home/sergius/lib</p>
+    <p>export
+LD_LIBRARY_PATH=/media/sergius/C43A7E5B3A7E4B06/data/projects/ITMO/NIR/SFML/SFML-2.5.1-linux-gcc-64-bit/SFML-2.5.1/lib</p>
+    <p>echo $LD_LIBRARY_PATH </p>
+    <p><a href="https://www.opennet.ru/base/dev/shared_lib_intro.txt.html">https://www.opennet.ru/base/dev/shared_lib_intro.txt.html</a></p>
+    <p><a href="https://habr.com/ru/post/480642/">https://habr.com/ru/post/480642/</a></p>
+    <p><br>
+    </p>
+    <p>.so в директории с elf</p>
+    <p>************************************</p>
+    <p><b>qt + sfml</b></p>
+    <p><a href="https://evileg.com/ru/post/286/">https://evileg.com/ru/post/286/</a></p>
+    <p><a href="https://www.freepng.ru/png-5j1317/">https://www.freepng.ru/png-5j1317/</a></p>
+    <p><br>
+    </p>
+    <p><b>qt + opencv</b></p>
+    <p><code>#include "mainwindow.h"<br>
+        #include "ui_mainwindow.h"<br>
+        <br>
+        #include &lt;opencv2/core/core.hpp&gt;<br>
+        #include &lt;opencv2/highgui/highgui.hpp&gt;<br>
+        <br>
+        MainWindow::MainWindow(QWidget *parent) :<br>
+        &nbsp;&nbsp;&nbsp; QMainWindow(parent),<br>
+        &nbsp;&nbsp;&nbsp; ui(new Ui::MainWindow)<br>
+        {<br>
+        &nbsp;&nbsp;&nbsp; ui-&gt;setupUi(this);<br>
+        <br>
+        &nbsp;&nbsp;&nbsp; // read an image<br>
+        &nbsp;&nbsp;&nbsp; cv::Mat image = cv::imread("f://1.jpg", 1);<br>
+        &nbsp;&nbsp;&nbsp; // create image window named "My Image"<br>
+        &nbsp;&nbsp;&nbsp; cv::namedWindow("My Image");<br>
+        &nbsp;&nbsp;&nbsp; // show the image on window<br>
+        &nbsp;&nbsp;&nbsp; cv::imshow("My Image", image);<br>
+        }<br>
+        <br>
+        MainWindow::~MainWindow()<br>
+        {<br>
+        &nbsp;&nbsp;&nbsp; delete ui;<br>
+        }</code></p>
+    <p>f</p>
+    <p><a href="https://stackoverflow.com/questions/14729417/open-webcamera-with-opencv-and-show-it-with-qlabel-white-window/14729778#14729778">https://stackoverflow.com/questions/14729417/open-webcamera-with-opencv-and-show-it-with-qlabel-white-window/14729778#14729778</a></p>
+    <p><a href="https://habr.com/ru/post/148467/">https://habr.com/ru/post/148467/</a></p>
+    <p><a href="https://bravelearn.com/display-image-in-qt-creator-widget-application-using-opencv/">https://bravelearn.com/display-image-in-qt-creator-widget-application-using-opencv/</a></p>
+    <p><br>
+    </p>
+    <p><a href="http://develnoter.blogspot.com/2012/05/integrating-opencv-in-qt-gui.html">http://develnoter.blogspot.com/2012/05/integrating-opencv-in-qt-gui.html</a></p>
+    <p>*********************************************</p>
+    <p>Цикл обработки каждую секунду:</p>
+    <ul>
+      <li>Обработка данных с камеры</li>
+      <ul>
+        <li>Определение положения роботов</li>
+        <li>Считывание данных с метки</li>
+      </ul>
+      <li>Прием данных по Wifi</li>
+      <li>Отрисовка симулятора</li>
+      <ul>
+        <li>Вывод считынных данных о состоянии роботов</li>
+      </ul>
+      <li>Передача команд по UART для ИК порта или для WIFI модуля.</li>
+    </ul>
+    <p>**********************************************</p>
+    <p>Алгоритм распознавания маркеров:</p>
+    <p><b>Подготовка изображения</b></p>
+    <p>Условия: </p>
+    <ul>
+      <li>Роботы-агенты расположены в одной плоскости (плоскости рабочего поля).</li>
+      <li>Рабочее поле ограничено размерами 1000 мм на 1000 мм</li>
+      <li>Видеокамера зафиксирована на определенной высоте над центром рабочего
+        поля.</li>
+      <li>Поле имеет калибровочную разметку.</li>
+    </ul>
+    <p>Для подготовки изображения применяется геометрическая трансформация,
+      переводящая перспективную проекцию в параллельную проекцию.</p>
+    <p>OpenCV Warp</p>
+    <p>Аффинное преобразование с матрицей перехода.</p>
+    <p>Предварительно выполняется калибровка на поле в виде шахматной доски.</p>
+    <p><br>
+    </p>
+    <p>Предполагается, что в поле зрения видеокамеры, только маркеры имеют
+      окраску заданного цветового диапазона (красный цвет).</p>
+    <p>Это условие дает возможность применить фильтр по цветовому дипазону.</p>
+    <p>На выходе фильтра, получаются ограниченные области в которых в дальнейшем
+      будут искаться маркеры.</p>
+    <p><br>
+    </p>
+    <p>Светодиодная матрица представляется как скопление световых пятен.</p>
+    <p>Разбиение пятен на кластеры. Кластер - ограниченная область на поле.</p>
+    <p>Область должна быть ограничена и быть пропорциональной реальному размеру
+      маркера с некоторым коэфициентом.</p>
+    <p>В область должны попадать 4 световых пятна, находящиеся друг от друг на
+      расстоянии равном длине стороны квадрата маркера.</p>
+    <p>Попробовать обнаружить такой маркер:</p>
+    <p><code>#&nbsp; #&nbsp; #&nbsp; #&nbsp; #&nbsp; #&nbsp; #&nbsp; #<br>
+        #&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp; &nbsp; &nbsp; #<br>
+        #&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        #<br>
+        #&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp; &nbsp; &nbsp; #<br>
+        #&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        #<br>
+        #&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp; &nbsp; &nbsp; #<br>
+        #&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        #<br>
+        #&nbsp; #&nbsp; #&nbsp; #&nbsp; #&nbsp; #&nbsp; #&nbsp; #</code></p>
+    <p>Если в заданном радиусе от пятнаесть другое пятно то, считать их
+      соединенными. Если таким образом образуется замкнутый контур, то описать
+      вокруг такого контура окружность. </p>
+    <p>Пятна ближайщие к окружность будут являться углами квадрата.</p>
+    <p><br>
+    </p>
+  </body>
+</html>

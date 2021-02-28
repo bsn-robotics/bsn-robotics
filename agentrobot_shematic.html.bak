@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>agentrobot_shematic</title>
+  </head>
+  <body>
+    <h1>Разработка схемотехники робота</h1>
+    <h2>ТЗ на электронику робота</h2>
+    <ul>
+      <li>Перемещение на плоскости (2 мотора, драйвер двигателей) +</li>
+      <ul>
+        <li>2 Энкодера на оптопаре</li>
+      </ul>
+      <li>Передача данных между роботами - ИК-порт ---</li>
+      <li>Передача данных на компьютер (с помощью светодиодов, обрабатывается
+        камерой) +</li>
+      <ul>
+        <li>Метка из светодиодов</li>
+        <ul>
+          <li>3 светодиода по 3м углам (3х цветные)</li>
+          <li>8 светодиодов в матрице 4x4</li>
+        </ul>
+      </ul>
+      <li>Передача данных</li>
+      <li>Индикация</li>
+      <ul>
+        <li>4 зеленых светодиода для поверхностного монтажа</li>
+        <li>1 трехцветный выводной светодиод линза 5 мм.</li>
+      </ul>
+      <li>Кнопки</li>
+      <ul>
+        <li>движок включения </li>
+      </ul>
+      <li>Прием данных через ИК-приемник</li>
+      <ul>
+        <li>Адресно передавать на каждый робот не получится или получится с
+          слишком большой задержкой последовательно на каждого робота</li>
+      </ul>
+      <li>Светодиодная матрица 8 на 8 на крыше робота.</li>
+      <li>Акселерометр</li>
+      <li>Гироскоп</li>
+    </ul>
+    <p><br>
+    </p>
+    <p>Основа для печатной платы это плата Blue Pill для микроконтроллера
+      STM32F103C8T6.</p>
+    <p>BluePill </p>
+    <p><a href="https://roboparts.ru/catalog/otladochnye_platy_i_kontrollery/stm/stm32f103c8t6-otladochnaya-plata/">https://roboparts.ru/catalog/otladochnye_platy_i_kontrollery/stm/stm32f103c8t6-otladochnaya-plata/</a></p>
+    <p><a href="https://stm32-base.org/boards/STM32F103C8T6-Blue-Pill.html">https://stm32-base.org/boards/STM32F103C8T6-Blue-Pill.html</a></p>
+    <p><a href="https://stm32-base.org/guides/getting-started">https://stm32-base.org/guides/getting-started</a></p>
+    <p><a href="https://stm32-base.org/guides/setup">https://stm32-base.org/guides/setup</a></p>
+    <p><br>
+    </p>
+    <p><b>Проектирование в Altium Blue Pill design and BOM</b></p>
+    <p>Blue Pill design and BOM <a href="https://easyeda.com/r3bers/STM32F103C8T6-Test-Board">https://easyeda.com/r3bers/STM32F103C8T6-Test-Board</a><span
+        style="color: #cccccc;"><b><br>
+        </b></span></p>
+    <span style="color: #cccccc;"> </span>
+    <p><span style="color: #cccccc;">https://www.udemy.com/course/learn-how-to-design-stm32-bluepill-board-in-altium-designer/
+        </span></p>
+    <p>Altium Designer Tutorial: How to Design STM32 BluePill <a href="https://youtube.com/playlist?list=PL5-me837BEUJNW6QxzR1d5mBNZgye2KbN">https://youtube.com/playlist?list=PL5-me837BEUJNW6QxzR1d5mBNZgye2KbN</a><span
+        style="color: #0000ee;"></span></p>
+    <p>Altium Designer Tutorial #42: How to Design STM32 BluePill Part I
+      Schematic sponsored by ALLPCB <a href="https://youtu.be/Afcxane581c">https://youtu.be/Afcxane581c</a></p>
+    <p><br>
+    </p>
+    <p>Tutorials EN <a href="https://youtube.com/playlist?list=PL5-me837BEUKFJ2ZYrJmgLDgnrFGQe-RX">https://youtube.com/playlist?list=PL5-me837BEUKFJ2ZYrJmgLDgnrFGQe-RX</a></p>
+    <p><br>
+    </p>
+    <p>Работа с Blue Pill<br>
+    </p>
+    <p><a href="http://mypractic.ru/urok-2-plata-stm32f103c8t6-zagruzka-programmy-vo-flash-pamyat-mikrokontrollera-cherez-sistemnyj-butloader.html">http://mypractic.ru/urok-2-plata-stm32f103c8t6-zagruzka-programmy-vo-flash-pamyat-mikrokontrollera-cherez-sistemnyj-butloader.html</a></p>
+    <p><a href="http://fornk.ru/5110-nachalo-raboty-s-stm32f103c8t6-blue-pill/">http://fornk.ru/5110-nachalo-raboty-s-stm32f103c8t6-blue-pill/</a></p>
+    <p><a href="http://www.vcc-gnd.com/rtd/html/STM32/quickref.html#stm32f1">http://www.vcc-gnd.com/rtd/html/STM32/quickref.html#stm32f1</a></p>
+    <p><a href="http://www.vcc-gnd.com/">http://www.vcc-gnd.com/</a></p>
+    <p><br>
+    </p>
+    <b>Линейный стабилизатор напряжения</b><br>
+    <p>4b2x - китайский аналог LM1117 TI<br>
+    </p>
+    <p><br>
+    </p>
+    <b> </b>
+    <p><b>Драйвер двигателя L293D</b></p>
+    <p><b><br>
+      </b></p>
+    <p><b>Разъем для подключения wifi</b></p>
+    <p><br>
+    </p>
+    <p><br>
+    </p>
+    <p>Посмотреть аналогичные для ардуино</p>
+  </body>
+</html>

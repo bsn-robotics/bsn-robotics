@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>opencv</title>
+  </head>
+  <body>
+    <h1>OpenCV</h1>
+    <p>https://stackoverflow.com/questions/36590912/using-opencv-with-clion<br>
+      https://learnopencv.com/install-opencv-3-4-4-on-ubuntu-18-04/<br>
+      <br>
+      https://losst.ru/ustanovka-opencv-v-ubuntu-18-04<br>
+      <br>
+      <code>sudo apt install build-essential cmake git pkg-config libgtk-3-dev
+        libavcodec-dev libavformat-dev libswscale-dev libv4l-dev libxvidcore-dev
+        libx264-dev libjpeg-dev libpng-dev libtiff-dev gfortran openexr
+        libatlas-base-dev python3-dev python3-numpy libtbb2 libtbb-dev
+        libdc1394-22-dev<br>
+        <br>
+        mkdir ~/opencv_build<br>
+        cd ~/opencv_build<br>
+        <br>
+        git clone https://github.com/opencv/opencv.git<br>
+        git clone https://github.com/opencv/opencv_contrib.git<br>
+        <br>
+        cd ~/opencv_build/opencv<br>
+        <br>
+        mkdir build<br>
+        <br>
+        cd build<br>
+        <br>
+        cmake -D CMAKE_BUILD_TYPE=RELEASE \<br>
+        -D CMAKE_INSTALL_PREFIX=/usr/local \<br>
+        -D INSTALL_C_EXAMPLES=ON \<br>
+        -D INSTALL_PYTHON_EXAMPLES=ON \<br>
+        -D OPENCV_GENERATE_PKGCONFIG=ON \<br>
+        -D
+        OPENCV_EXTRA_MODULES_PATH=/media/sergius/C43A7E5B3A7E4B06/data/projects/ITMO/NIR/OpenCV/opencv_build/opencv_contrib/modules
+        \<br>
+        -D BUILD_EXAMPLES=ON ..<br>
+        <br>
+        <br>
+        -D OPENCV_EXTRA_MODULES_PATH=~/opencv_build/opencv_contrib/modules \<br>
+        make<br>
+        <br>
+        sudo make install<br>
+        <br>
+        pkg-config --modversion opencv4</code></p>
+    <p><code><br>
+      </code></p>
+    <p><code>./example_cpp_example<br>
+      </code></p>
+    <p>example_tutorial_Geometric_Transforms_Demo</p>
+    <p>example_tutorial_HoughCircle_Demo</p>
+    <p>example_cpp_qrcode</p>
+    <p>example_aruco_create_board</p>
+    <p>./example_cpp_detect_blob</p>
+    <p>./example_cpp_detect_mser</p>
+    <p>./example_cpp_contours2</p>
+    <p>./example_cpp_convexhull</p>
+    <p><br>
+    </p>
+    <p><br>
+    </p>
+    <p>Исправление картинки example_cpp_inpaint</p>
+    <p><br>
+    </p>
+    <p>red eye <a href="https://stackoverflow.com/questions/26480548/opencv-calculating-new-red-pixel-value">https://stackoverflow.com/questions/26480548/opencv-calculating-new-red-pixel-value</a></p>
+    <p>G. HW sync validation<br>
+      <br>
+      One way to confirm that HW sync is working properly is to use our test app
+      (Provided Separately) and use a high-speed LED panel operating a several
+      hundred Hz, as shown below. Pointing all cameras at the panel will allow
+      you to see if the cameras are capturing the color (and depth) at the exact
+      same time. The cameras need to be set to capture at a very low exposure
+      time (for example &lt;3ms) for this to be visible, otherwise the whole
+      panel will just be a blur. The picture below shows two different cameras
+      are that HW synced (Left) and not synced (Right).</p>
+    <p><a href="https://dev.intelrealsense.com/docs/multiple-depth-cameras-configuration">https://dev.intelrealsense.com/docs/multiple-depth-cameras-configuration</a></p>
+    <p><br>
+    </p>
+    <p>Led Matrix Communications <a href="https://www.semanticscholar.org/paper/High-Speed-Parallel-Transmission-Visible-Light-with-Han-Lee/78163b2c53414f68013ce918c3a2dcd253a81347">https://www.semanticscholar.org/paper/High-Speed-Parallel-Transmission-Visible-Light-with-Han-Lee/78163b2c53414f68013ce918c3a2dcd253a81347</a></p>
+    <p>In this paper, we have studied a multi - LED matrix optical sensing
+      technology for high speed transmission in a visible light communication
+      system based on an optical camera CCD sensor. In order to improve
+      transmission capacity in visible light communication, data must be
+      transmitted from different LEDs at the same time and received. However, a
+      system environment with multiple LEDs may cause interference between
+      adjacent LEDs. Generally, since a visible light communication system
+      generally uses a luminance modulation method, when a plurality of LEDs
+      transmit data at the same time, it is difficult to accurately detect each
+      LED due to light scattering interference of an adjacent LED. To solve this
+      problem, we proposed a spatial filtering technique to group multiple LEDs
+      and to reduce the interference of grouped LED matrix. We also propose a
+      pixel image processing technique for detecting each LED. This technology
+      accurately recognizes each matrix of LEDs in a multi-matrix LED
+      environment and improves system performance by increasing the throughput
+      of the MISO-OCVLC (Optical Camera Visible Light Communication) system.
+      LESS</p>
+    <p>Visible Light Communication </p>
+    <p>Картинки</p>
+    <p>led matrix</p>
+    <p><a href="https://www.semanticscholar.org/paper/Mobile-Phone-Camera-Based-Indoor-Visible-Light-With-Cahyadi-Kim/c7b55a329e3581e25e0bd4281a503db6f65886b2">https://www.semanticscholar.org/paper/Mobile-Phone-Camera-Based-Indoor-Visible-Light-With-Cahyadi-Kim/c7b55a329e3581e25e0bd4281a503db6f65886b2</a></p>
+    <p>Downlink visible light communication (VLC) using a mobile phone camera is
+      presented. The proposed scheme consists of an 8 × 8 light-emitting diode
+      (LED) array for data transmission and eight white LEDs for an adequate
+      level of illumination. The white LEDs are also used to acquire camera
+      focus and light metering. Moreover, an efficient rotation compensation
+      feature is provided in the form of a special header frame called keyframe
+      to allow multiple users to receive the data simultaneously at 90°, 180°,
+      and 270° orientations. Unlike conventional LED allocation methods for the
+      rotation compensation, this keyframe-based method improves the data rate
+      significantly. The experimental results demonstrate that the data rate
+      achieves up to 1280 bps, whereas the theoretical simulations exhibit a
+      potential data rate of up to 5120 bps using the identical LED array. The
+      proposed scheme can be considered to be an efficient short-range
+      camera-based VLC in an indoor environment with advanced features such as
+      illumination, relatively high data rate, and robust camera rotation
+      compensation for multiuser access. LESS</p>
+    <p>- <a href="https://royalsocietypublishing.org/doi/10.1098/rsta.2019.0185">https://royalsocietypublishing.org/doi/10.1098/rsta.2019.0185</a></p>
+    <p><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=7439739">https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=7439739</a></p>
+    <p><br>
+    </p>
+    <p><a href="https://ieeexplore.ieee.org/document/8806125">https://ieeexplore.ieee.org/document/8806125</a></p>
+    <p><br>
+    </p>
+    <p>fiducial markers <a href="https://en.wikipedia.org/wiki/Fiducial_marker">https://en.wikipedia.org/wiki/Fiducial_marker</a></p>
+    <p><a href="https://www.researchgate.net/figure/Examples-of-ARTag-patterns-In-the-original-library-version-only-the-four-black-corners_fig2_221314197">https://www.researchgate.net/figure/Examples-of-ARTag-patterns-In-the-original-library-version-only-the-four-black-corners_fig2_221314197</a></p>
+    <p><a href="https://wiki.robotika.sk/robowiki/index.php?title=RoboWiki">https://wiki.robotika.sk/robowiki/index.php?title=RoboWiki</a></p>
+    <p><a href="https://www.researchgate.net/figure/Examples-of-fiducial-markers-proposed-in-previous-works_fig2_260251570">https://www.researchgate.net/figure/Examples-of-fiducial-markers-proposed-in-previous-works_fig2_260251570</a></p>
+    <p><a href="https://www.researchgate.net/figure/Image-Process-for-automatic-marker-detection-a-Original-Image-b-Result-of-applying_fig14_260251570">https://www.researchgate.net/figure/Image-Process-for-automatic-marker-detection-a-Original-Image-b-Result-of-applying_fig14_260251570</a></p>
+    <p><br>
+    </p>
+    <p>fiducial markers led matrix</p>
+    <p>led matrix markers opencv</p>
+    <p><a href="https://www.computer.org/csdl/journal/tp/2016/12/07384749/13rRUxCitKE">https://www.computer.org/csdl/journal/tp/2016/12/07384749/13rRUxCitKE</a></p>
+    <p><a href="https://link.springer.com/chapter/10.1007/978-3-319-78452-6_42">https://link.springer.com/chapter/10.1007/978-3-319-78452-6_42</a></p>
+    <p><a href="https://medium.com/@cadanderson/drawing-maps-with-robots-opencv-and-raspberry-pi-3389fa05b90f">https://medium.com/@cadanderson/drawing-maps-with-robots-opencv-and-raspberry-pi-3389fa05b90f</a></p>
+    <p><a href="https://www.researchgate.net/publication/317818105_Light_Emitting_Marker_for_Robust_Vision-Based_On-The-Spot_Bacterial_Growth_Detection">https://www.researchgate.net/publication/317818105_Light_Emitting_Marker_for_Robust_Vision-Based_On-The-Spot_Bacterial_Growth_Detection</a></p>
+    <p>Light Emitting Marker</p>
+    <p>Adaptive planar vision marker composed of LED arrays for sensing under
+      low visibility</p>
+    <p><br>
+    </p>
+    <p><a href="https://blog.adafruit.com/2012/11/04/adafruit-bicolor-led-matrix-used-for-qr-clock/">https://blog.adafruit.com/2012/11/04/adafruit-bicolor-led-matrix-used-for-qr-clock/</a></p>
+    <p>f</p>
+    <p><a href="https://iosoft.blog/category/opencv/">https://iosoft.blog/category/opencv/</a></p>
+    <p><a href="http://doc-ok.org/?p=1124">http://doc-ok.org/?p=1124</a></p>
+    <p><br>
+    </p>
+    <p>multiply object detection</p>
+    <p><a href="https://youtu.be/hQ-bpfdWQh8">https://youtu.be/hQ-bpfdWQh8</a></p>
+    <p><a href="http://akaifi.github.io/MultiObjectTrackingBasedOnColor/">http://akaifi.github.io/MultiObjectTrackingBasedOnColor/</a></p>
+    <p>OpenCV Python Tutorial For Beginners 13 - Object Detection and Object
+      Tracking Using HSV Color Space <a href="https://youtu.be/3D7O_kZi8-o">https://youtu.be/3D7O_kZi8-o</a></p>
+    <p><a href="https://iosoft.blog/category/opencv/">https://iosoft.blog/category/opencv/</a></p>
+    <p><br>
+    </p>
+    <p><a href="https://docs.opencv.org/3.4.12/d9/d0c/group__calib3d.html">https://docs.opencv.org/3.4.12/d9/d0c/group__calib3d.html</a></p>
+    <p><br>
+    </p>
+    <p>detecting led opencv</p>
+    <p><a href="https://stackoverflow.com/questions/19853784/how-to-detect-a-defective-led-in-an-image">https://stackoverflow.com/questions/19853784/how-to-detect-a-defective-led-in-an-image</a></p>
+    <p><a href="https://dev.to/tinazhouhui/coin-detection-discovering-opencv-with-python-1ka1">https://dev.to/tinazhouhui/coin-detection-discovering-opencv-with-python-1ka1</a></p>
+    <p><a href="https://github.com/PWRFLcreative/Lightwork">https://github.com/PWRFLcreative/Lightwork</a></p>
+    <p><a href="https://medium.com/hackernoon/sudoku-solver-w-golang-opencv-3-2-3972ed3baae2">https://medium.com/hackernoon/sudoku-solver-w-golang-opencv-3-2-3972ed3baae2</a></p>
+    <p><a href="https://www.bluetin.io/opencv/opencv-color-detection-filtering-python/">https://www.bluetin.io/opencv/opencv-color-detection-filtering-python/</a></p>
+    <p><br>
+    </p>
+    <p>blob detection</p>
+    <p><a href="http://devres.zoomquiet.top/data/20170412213654/index.html">http://devres.zoomquiet.top/data/20170412213654/index.html</a></p>
+    <p><a href="https://coderoad.ru/8076889/%D0%9A%D0%B0%D0%BA-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D1%8C-OpenCV-SimpleBlobDetector">https://coderoad.ru/8076889/%D0%9A%D0%B0%D0%BA-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D1%8C-OpenCV-SimpleBlobDetector</a></p>
+    <p><a href="https://docs.opencv.org/3.4/d0/d7a/classcv_1_1SimpleBlobDetector.html">https://docs.opencv.org/3.4/d0/d7a/classcv_1_1SimpleBlobDetector.html</a></p>
+    <p><a href="https://learnopencv.com/blob-detection-using-opencv-python-c/">https://learnopencv.com/blob-detection-using-opencv-python-c/</a></p>
+    <p><a href="https://stackoverflow.com/questions/60252415/how-to-evaluate-the-state-of-leds-with-opencv">https://stackoverflow.com/questions/60252415/how-to-evaluate-the-state-of-leds-with-opencv</a></p>
+    <p><br>
+    </p>
+    <p>Detecting multiple bright spots in an image with Python and OpenCV</p>
+    <p><a href="https://www.pyimagesearch.com/2016/10/31/detecting-multiple-bright-spots-in-an-image-with-python-and-opencv/">https://www.pyimagesearch.com/2016/10/31/detecting-multiple-bright-spots-in-an-image-with-python-and-opencv/</a></p>
+    <p><a href="https://answers.opencv.org/question/177172/strategies-for-removing-aliasing-refresh-rate-effects/">https://answers.opencv.org/question/177172/strategies-for-removing-aliasing-refresh-rate-effects/</a></p>
+    <p>а</p>
+    <p>Трансформация по 4 точкам <a href="https://www.pyimagesearch.com/2014/08/25/4-point-opencv-getperspective-transform-example/">https://www.pyimagesearch.com/2014/08/25/4-point-opencv-getperspective-transform-example/</a></p>
+    <p><br>
+    </p>
+    <p><b>aruco marker detection</b></p>
+    <p><a href="https://docs.opencv.org/master/d5/dae/tutorial_aruco_detection.html">https://docs.opencv.org/master/d5/dae/tutorial_aruco_detection.html</a></p>
+    <p><a href="https://learnopencv.com/augmented-reality-using-aruco-markers-in-opencv-c-python/">https://learnopencv.com/augmented-reality-using-aruco-markers-in-opencv-c-python/</a></p>
+    <p><a href="https://www.pyimagesearch.com/2020/12/21/detecting-aruco-markers-with-opencv-and-python/">https://www.pyimagesearch.com/2020/12/21/detecting-aruco-markers-with-opencv-and-python/</a></p>
+    <p><a href="https://dzone.com/articles/marker-tracking-via-websockets-with-raspberry-pi">https://dzone.com/articles/marker-tracking-via-websockets-with-raspberry-pi</a></p>
+    <p>led fiducial marker detection</p>
+    <p><br>
+    </p>
+    <p><b>Tutorials</b></p>
+    <p><a href="https://docs.opencv.org/master/db/deb/tutorial_display_image.html">https://docs.opencv.org/master/db/deb/tutorial_display_image.html</a></p>
+    <p><a href="https://docs.opencv.org/master/de/d7a/tutorial_table_of_content_core.html">https://docs.opencv.org/master/de/d7a/tutorial_table_of_content_core.html</a></p>
+    <p><a href="https://docs.opencv.org/master/de/d3d/tutorial_table_of_content_app.html">https://docs.opencv.org/master/de/d3d/tutorial_table_of_content_app.html</a></p>
+    <p>Planar objects <a href="https://docs.opencv.org/master/dd/dd4/tutorial_detection_of_planar_objects.html">https://docs.opencv.org/master/dd/dd4/tutorial_detection_of_planar_objects.html</a></p>
+    <p>video input <a href="https://docs.opencv.org/master/d5/dc4/tutorial_video_input_psnr_ssim.html">https://docs.opencv.org/master/d5/dc4/tutorial_video_input_psnr_ssim.html</a></p>
+    <p><br>
+    </p>
+  </body>
+</html>

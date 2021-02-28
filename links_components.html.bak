@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>links_components</title>
+  </head>
+  <body>
+    <h1>Ссылки на компоненты</h1>
+    <p>Колесо 30 мм <a href="https://roboshop.spb.ru/mechanics/plastic-wheel-30mm">https://roboshop.spb.ru/mechanics/plastic-wheel-30mm</a></p>
+    <p>Колесо 20 мм <a href="https://roboshop.spb.ru/mechanics/plastic-wheel-20mm">https://roboshop.spb.ru/mechanics/plastic-wheel-20mm</a></p>
+    <p>Колесо на D вал <a href="https://amperka.ru/product/wheel-42x19">https://amperka.ru/product/wheel-42x19</a></p>
+    <p>Колесо аллюминиевое 28 мм от драгстера <a href="https://amperka.ru/product/robot-wheels-aluminum">https://amperka.ru/product/robot-wheels-aluminum</a></p>
+    <p>Драгстер <a href="https://amperka.ru/product/dragster">https://amperka.ru/product/dragster</a></p>
+    <p>На нем сверху матриа 8 на 8 </p>
+    <p>Мини шаговы двигатель <a href="https://roboshop.spb.ru/mechanics/micro-step-motor">https://roboshop.spb.ru/mechanics/micro-step-motor</a></p>
+    <p>Bluetooth HC-05 <a href="https://roboshop.spb.ru/modules/hc-05">https://roboshop.spb.ru/modules/hc-05</a></p>
+    <p><a href="https://roboshop.spb.ru/modules/hc-05-module">https://roboshop.spb.ru/modules/hc-05-module</a></p>
+    <p><a href="https://smartelements.ru/collection/svyaz/product/bluetooth-modul-hc-05">https://smartelements.ru/collection/svyaz/product/bluetooth-modul-hc-05</a></p>
+    <p>Wi-Fi модуль ESP-01 <a href="https://roboshop.spb.ru/modules/esp-01">https://roboshop.spb.ru/modules/esp-01</a></p>
+    <p><a href="https://roboshop.spb.ru/programmator/usb-uart-esp-01"></a><a href="http://arduinkin.ru/index.php?route=product/product&amp;path=60_65&amp;product_id=464">http://arduinkin.ru/index.php?route=product/product&amp;path=60_65&amp;product_id=464</a></p>
+    <p>Модули для esp-01</p>
+    <p><a href="https://roboshop.spb.ru/programmator/usb-uart-esp-01">https://roboshop.spb.ru/programmator/usb-uart-esp-01</a></p>
+    <p><a href="https://roboshop.spb.ru/sensors/dht11-esp-01-module">https://roboshop.spb.ru/sensors/dht11-esp-01-module</a></p>
+    <p><a href="https://roboshop.spb.ru/modules/esp-01-adapter">https://roboshop.spb.ru/modules/esp-01-adapter</a></p>
+    <p><a href="https://roboshop.spb.ru/modules/relay-module-5v-1ch-esp-01">https://roboshop.spb.ru/modules/relay-module-5v-1ch-esp-01</a></p>
+    <p><a href="https://roboshop.spb.ru/arduino/arduino-uno-wifi-esp8266">https://roboshop.spb.ru/arduino/arduino-uno-wifi-esp8266</a></p>
+    <p>Подшипники</p>
+    <p><a href="https://roboshop.spb.ru/3d-parts/623zz">https://roboshop.spb.ru/3d-parts/623zz</a></p>
+    <p>STM32 Blue Pill</p>
+    <p><a href="https://creatorplanet.com/index.php?route=product/product&amp;path=1&amp;product_id=16">https://creatorplanet.com/index.php?route=product/product&amp;path=1&amp;product_id=16</a></p>
+    <p><a href="http://arduinkin.ru/index.php?route=product/product&amp;path=60_65&amp;product_id=481">http://arduinkin.ru/index.php?route=product/product&amp;path=60_65&amp;product_id=481</a></p>
+    <p> <a href="https://amperkot.ru/msk/catalog/plata_mikrokontroller_stm32f103c8t6_arm_stm32-24260785.html">https://amperkot.ru/msk/catalog/plata_mikrokontroller_stm32f103c8t6_arm_stm32-24260785.html</a></p>
+    <p>мотор с колесом и держателем <a href="https://amperkot.ru/msk/catalog/motor_n20_s_kolesom_i_derzhatelem-23969622.html">https://amperkot.ru/msk/catalog/motor_n20_s_kolesom_i_derzhatelem-23969622.html</a></p>
+    <p>Платформа на всенаправленных колесах <a href="https://amperkot.ru/msk/catalog/shassi_4wd_na_vsenapravlennyih_kolesah__mecanum_wheels-39163068.html">https://amperkot.ru/msk/catalog/shassi_4wd_na_vsenapravlennyih_kolesah__mecanum_wheels-39163068.html</a></p>
+    <p>а</p>
+    <p>Набор пластиковых шестеренок <a href="https://amperkot.ru/msk/catalog/nabor_raznoobraznyih_shesterenok__okolo_40_sht_v_komplekte-23866354.html">https://amperkot.ru/msk/catalog/nabor_raznoobraznyih_shesterenok__okolo_40_sht_v_komplekte-23866354.html</a></p>
+    <p><br>
+    </p>
+    <p>Светодиодная матрица 8 на 8 RGB</p>
+    <p><a href="https://roboparts.ru/catalog/displei_i_indikatsiya/semisegmentnye_indikatory_i_matritsy/cmd_3881320_p5tgwn_tochechnye_led_matritsy/">https://roboparts.ru/catalog/displei_i_indikatsiya/semisegmentnye_indikatory_i_matritsy/cmd_3881320_p5tgwn_tochechnye_led_matritsy/</a></p>
+    <p><a href="https://smartelements.ru/collection/displei-i-indikatory/product/modul-svetodiodnoy-matritsy">https://smartelements.ru/collection/displei-i-indikatory/product/modul-svetodiodnoy-matritsy</a></p>
+    <p><a href="https://amperkot.ru/msk/catalog/88_rgb_led_matritsa_60x60mm-23813231.html">https://amperkot.ru/msk/catalog/88_rgb_led_matritsa_60x60mm-23813231.html</a></p>
+    <p><a href="https://smartelements.ru/collection/displei-i-indikatory/product/svetodiodnaya-matritsa-8h8-1088as">https://smartelements.ru/collection/displei-i-indikatory/product/svetodiodnaya-matritsa-8h8-1088as</a></p>
+    <p><br>
+    </p>
+    <p>Модель с матрицей <a href="https://amperkot.ru/msk/catalog/modul_upravleniya_led_matritsey_8x8_max7219-23950859.html">https://amperkot.ru/msk/catalog/modul_upravleniya_led_matritsey_8x8_max7219-23950859.html</a></p>
+    <p>ав</p>
+    <p>Держатель для двиагтеля <a href="https://mgbot.ru/catalog/raznoe/kreplenije-dla-mikromotorov-reduktorov-n20-motor-/">https://mgbot.ru/catalog/raznoe/kreplenije-dla-mikromotorov-reduktorov-n20-motor-/</a></p>
+    <p><br>
+    </p>
+    <p>Гусеницы <a href="https://mgbot.ru/catalog/rasprodazha/gusenicy-dla-platformy-para/">https://mgbot.ru/catalog/rasprodazha/gusenicy-dla-platformy-para/</a></p>
+    <p>Металлические гусеницы <a href="https://mgbot.ru/catalog/rasprodazha/metallicheskaya_gusenitsa/">https://mgbot.ru/catalog/rasprodazha/metallicheskaya_gusenitsa/</a></p>
+    <p>Стабилизатор напряжения <a href="http://arduinkin.ru/index.php?route=product/product&amp;product_id=616">http://arduinkin.ru/index.php?route=product/product&amp;product_id=616</a></p>
+    <p>RGB светодиод <a href="http://arduinkin.ru/index.php?route=product/product&amp;product_id=434">http://arduinkin.ru/index.php?route=product/product&amp;product_id=434</a></p>
+    <p>Понижающий преобразователь <a href="http://arduinkin.ru/index.php?route=product/product&amp;product_id=606">http://arduinkin.ru/index.php?route=product/product&amp;product_id=606</a></p>
+    <p><br>
+    </p>
+    <h2>ESP-01</h2>
+    <p><a href="https://robotchip.ru/obzor-modulya-esp-01-na-chipe-esp8266/">https://robotchip.ru/obzor-modulya-esp-01-na-chipe-esp8266/</a></p>
+    <p><a href="https://www.wikiwand.com/en/ESP8266">https://www.wikiwand.com/en/ESP8266</a></p>
+    <p><a href="https://habr.com/ru/post/255135/">https://habr.com/ru/post/255135/</a></p>
+    <p><a href="https://github.com/nekromant/esp8266-frankenstein">https://github.com/nekromant/esp8266-frankenstein</a></p>
+    <p><a href="https://www.esp8266.com/viewtopic.php?t=16591">https://www.esp8266.com/viewtopic.php?t=16591</a></p>
+    <p><br>
+    </p>
+    <p>NodeMCU</p>
+    <p><a href="http://edurobots.ru/2017/04/nodemcu-esp8266/">http://edurobots.ru/2017/04/nodemcu-esp8266/</a></p>
+    <p>ESP-WROOM-32</p>
+    <p><a href="https://www.wikiwand.com/en/ESP32">https://www.wikiwand.com/en/ESP32</a></p>
+    <p><a href="https://www.euromobile.ru/novosti/esp32_s2_novyy_chip_soc_ot_kompanii_espressif/">https://www.euromobile.ru/novosti/esp32_s2_novyy_chip_soc_ot_kompanii_espressif/</a></p>
+    <p><a href="https://www.espressif.com/en">https://www.espressif.com/en</a></p>
+    <p>a</p>
+    <p><a href="https://www.espressif.com/en/products/socs/esp8266">https://www.espressif.com/en/products/socs/esp8266</a></p>
+    <p><br>
+    </p>
+    <p><span style="color: red;">Купить! ESP WIFI Камера модуль <a href="https://www.espressif.com/en/products/devkits/esp-eye/overview">https://www.espressif.com/en/products/devkits/esp-eye/overview</a></span></p>
+    <p><a href="https://spb.terraelectronica.ru/news/5878">https://spb.terraelectronica.ru/news/5878</a></p>
+    <p>
+    </p>
+    <p><b></b></p>
+    <p></p>
+  </body>
+</html>

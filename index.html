@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Project multi-agent robotics systems</title>
+    <style type="text/css">
+   div {
+    max-width: 800px;
+    /*width: 50%; *//* Ширина */
+    background: #ffffff; /* Цвет фона */
+    padding-left: 20px; /* Поля */
+    padding-right: 20px; /* Поля */
+    border-right: 1px solid #000;
+   }
+  </style>
+  </head>
+  <body>
+    <div>
+      <h1>Project multi-agent robotics system</h1>
+      <p>Тема: Разработка алгоритмов управления группой мобильных роботов с
+        использованием системы технического зрения.</p>
+      <h2><b>Содержание проекта</b></h2>
+      <p><a href="agentrobot_mechanics.html" target="_blank">Разработка механики
+          робота</a></p>
+      <p><a href="agentrobot_shematic.html" target="_blank">Разработка
+          схемотехники робота</a></p>
+      <p><a href="agent_robot_pcb_technical_specification.html" target="_blank">Разработка
+          печатной платы</a></p>
+      <p><a href="system_control_and_cv.html" target="_blank">Система управления
+          и технического зрения</a></p>
+      <p><br>
+      </p>
+      <p><a href="list_electronics_components.html" target="_blank">Список
+          требуемых электронных компонентов для макетирования</a></p>
+      <a href="bom.html">Список электронных компонентов на плату</a><br>
+      <p><a href="list_mechanical_components.html" target="_blank">Список
+          требуемых механических компонентов</a></p>
+      <p><br>
+      </p>
+      <p><a href="similar_projects.html" target="_blank">Аналогичные проекты</a></p>
+      <p><a href="links_components.html" target="_blank">Ссылки на компоненты</a></p>
+      <p><br>
+      </p>
+      <p><a href="altium.html" target="_blank">Материалы по Altium</a></p>
+      <p><a href="opencv.html" target="_blank">Материалы по OpenCV</a></p>
+      <p><a href="other_links.html" target="_blank">Другие материалы</a></p>
+      <p>***************************</p>
+      <h2>Основное</h2>
+      <p>3D модель в ПО SolidWorks</p>
+      <p>Фото</p>
+      <table style="width: 100%" border="1">
+        <tbody>
+          <tr>
+            <td><img src="img/robot1.jpg" style="width: 320px; height: 320px;"><br>
+            </td>
+            <td><img src="img/robot2.jpg" style="width: 320px; height: 320px;"></td>
+          </tr>
+          <tr>
+            <td><img src="img/robot3.jpg" style="width: 320px; height: 320px;"><br>
+            </td>
+            <td><br>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p>Видео</p>
+      <iframe src="https://www.youtube.com/embed/t6EsMD7pL_E" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen="" width="800" height="420" frameborder="0"></iframe>
+      <p><br>
+      </p>
+      <h2>Постановка задачи</h2>
+      <p>***********************************************************************************************</p>
+      <p><a href="http://lcps.itmo.ru/projects/projects.html#multiagent" target="_blank">http://lcps.itmo.ru/projects/projects.html#multiagent</a></p>
+      <p>Планируемые работы:<br>
+      </p>
+      <ul>
+        <li> фильтр данных инерционных датчиков <span style="color: red;">#</span></li>
+        <li>система технического зрения и маркировки роботов <span style="color: red;">#</span></li>
+        <li>регулятор управления траекторией движения роботов</li>
+        <li>цифровой двойник робота</li>
+        <li>разработка протоколов безопасной передачи данных для мультиагентных
+          систем</li>
+        <li>алгоритмы управления мультиагентными системами <span style="color: red;">#</span></li>
+      </ul>
+      <p>***********************************************************************************************</p>
+      <p>Оценка положения робота по датчикам:</p>
+      <ul>
+        <li>Одометрия</li>
+        <li>Акселерометр</li>
+        <li>Гироскоп</li>
+      </ul>
+      <p>Сравнение оценки с оценкой положения на основе системы технического
+        зрения и с оценкой положения по отметкам на рабочей зоне.</p>
+      <p>Система технического зрения определяющая положение метки в виде
+        светодиодной матрицы. Передача данных с помощью светодиодной матрицы.</p>
+      <p>Алгоритмы управления</p>
+      <p>Смешанный тип системы<br>
+        Централизованное управление с возможность децентарилизации и общения
+        между агентами напрямую.<br>
+        Каждый агент можно представить абстарктным автоматом, который может
+        принимать и передавать сообщения.</p>
+      <p><br>
+      </p>
+      <p>Корректирока положения роботов при обмене между ними информацией о
+        своем положении и предполагаемом расстоянии до другого робота. </p>
+      <p>Когда один робот обнаруживает другого, то они обмениваются информацией
+        о своем местоположении, при этом они знают расстояние между ними.</p>
+      <p>Таким образом, положение одного робота уточняется за счет оценки
+        учитывающей положение другого робота.</p>
+      <p>smprobotics</p>
+      <p>*******************************************</p>
+      <p>Комплектующие выданного робота</p>
+      <p>Nucleo MB1180&nbsp; rev C<br>
+        F103C8T6<br>
+        F031K6T6</p>
+      <p>P25Q8GH<br>
+        ESP8266EX</p>
+      <ul>
+      </ul>
+      <ul>
+      </ul>
+      <h2>Обзор технологий</h2>
+      <p>wifi - плохо - т.к. помехи из-за множества клиентов. (цена модуля 140
+        руб)</p>
+      <ul>
+        <li>Мультиагентные роботы</li>
+        <li>Готовые решения для мультиагентынх роботов</li>
+        <li>Метки для идентификации предметов ++а<br>
+          <a href="https://habr.com/ru/company/vdsina/blog/534412/">https://habr.com/ru/company/vdsina/blog/534412/</a><br>
+          fdf</li>
+        <li>Активные метки для идентификации и передачи данных+++</li>
+        <li>Передача данных через камеру и QR-коды, и т.д. с цветом +++</li>
+        <li>Передача данных по радиоканалу - bluetooth +</li>
+        <li>Передача данных между агентами +</li>
+        <li>Передача данных централизованная через ПК&nbsp; +++</li>
+        <li>Имитацаи передачаи данных между агентами через центарилизованный
+          канал +++</li>
+        <li>Прием данных через ИК приемник +</li>
+        <li>Прием данных через контакт с поверхностью ---</li>
+        <li>Разметить поле и считывать метки с помощью сенсора от оптической
+          мышки ---</li>
+      </ul>
+      <p>Общение между wifi роботами</p>
+      <p>Возможность подключить модель wifi или bluetooth</p>
+      <h2></h2>
+      <h2>Вопросы</h2>
+      <p>Как соединить колесо и вал мотора? также как сделано в колесах от
+        DFRobot. Надо взять чертеж или сделать также.</p>
+      <p>Чем отличаются 34836 или TSOP 4836 ???</p>
+      <h2>Используемое ПО</h2>
+      <p>Solidworks</p>
+      <p>Altium +</p>
+      <p>Keil +</p>
+      <p>Matlab +</p>
+      <p>Clion</p>
+      <p>Qt</p>
+      <p>OpenCV</p>
+      <p>SFML</p>
+      <h2>TODO</h2>
+      <p><br>
+      </p>
+      <p><br>
+      </p>
+    </div>
+  </body>
+</html>

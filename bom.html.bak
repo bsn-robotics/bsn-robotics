@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>bom</title>
+  </head>
+  <body>
+    <h2>Список электронных компонентов на плату</h2>
+    <p></p>
+    <p>BOM</p>
+    <p>
+    </p>
+    <table cellspacing="0" border="0">
+      <colgroup width="32"></colgroup> <colgroup width="407"></colgroup> <colgroup
+        width="187"></colgroup> <colgroup width="175"></colgroup> <colgroup width="99"></colgroup>
+      <colgroup width="407"></colgroup> <colgroup width="241"></colgroup> <colgroup
+        width="143"></colgroup> <colgroup width="197"></colgroup>
+      <tbody>
+        <tr>
+          <td valign="bottom" height="19" align="left"><font color="#000000">ID</font></td>
+          <td valign="bottom" align="left"><font color="#000000">Name</font></td>
+          <td valign="bottom" align="left"><font color="#000000">Designator</font></td>
+          <td valign="bottom" align="left"><font color="#000000">Footprint</font></td>
+          <td valign="bottom" align="left"><font color="#000000">Quantity</font></td>
+          <td valign="bottom" align="left"><font color="#000000">BOM_Manufacturer
+              Part</font></td>
+          <td valign="bottom" align="left"><font color="#000000">BOM_Manufacturer</font></td>
+          <td valign="bottom" align="left"><font color="#000000">BOM_Supplier</font></td>
+          <td valign="bottom" align="left"><font color="#000000">BOM_Supplier
+              Part</font></td>
+        </tr>
+        <tr>
+          <td sdval="1" sdnum="1033;" valign="bottom" height="19" align="right"><font
+              color="#000000">1</font></td>
+          <td valign="bottom" align="left"><font color="#000000">K2-6639SP-C4SC-04</font></td>
+          <td valign="bottom" align="left"><font color="#000000">RST</font></td>
+          <td valign="bottom" align="left"><font color="#000000">KEY-6.0*6.0</font></td>
+          <td sdval="1" sdnum="1033;" valign="bottom" align="right"><font color="#000000">1</font></td>
+          <td valign="bottom" align="left"><font color="#000000">K2-6639SP-C4SC-04</font></td>
+          <td valign="bottom" align="left"><font color="#000000">HRO</font></td>
+          <td valign="bottom" align="left"><font color="#000000">LCSC</font></td>
+          <td valign="bottom" align="left"><font color="#000000">C83206</font></td>
+        </tr>
+        <tr>
+          <td sdval="2" sdnum="1033;" valign="bottom" height="19" align="right"><font
+              color="#000000">2</font></td>
+          <td valign="bottom" align="left"><font color="#000000">10K</font></td>
+          <td valign="bottom" align="left"><font color="#000000">R2</font></td>
+          <td valign="bottom" align="left"><font color="#000000">0603</font></td>
+          <td sdval="1" sdnum="1033;" valign="bottom" align="right"><font color="#000000">1</font></td>
+          <td valign="bottom" align="left"><font color="#000000">RC0603JR-0710KL</font></td>
+          <td valign="bottom" align="left"><font color="#000000">YAGEO</font></td>
+          <td valign="bottom" align="left"><font color="#000000">LCSC</font></td>
+          <td valign="bottom" align="left"><font color="#000000">C99198</font></td>
+        </tr>
+        <tr>
+          <td sdval="3" sdnum="1033;" valign="bottom" height="19" align="right"><font
+              color="#000000">3</font></td>
+          <td valign="bottom" align="left"><font color="#000000">1uF</font></td>
+          <td valign="bottom" align="left"><font color="#000000">C2</font></td>
+          <td valign="bottom" align="left"><font color="#000000">0603</font></td>
+          <td sdval="1" sdnum="1033;" valign="bottom" align="right"><font color="#000000">1</font></td>
+          <td valign="bottom" align="left"><font color="#000000">CL10A105KO8NNNC</font></td>
+          <td valign="bottom" align="left"><font color="#000000">SAMSUNG</font></td>
+          <td valign="bottom" align="left"><font color="#000000">LCSC</font></td>
+          <td valign="bottom" align="left"><font color="#000000">C1592</font></td>
+        </tr>
+        <tr>
+          <td sdval="4" sdnum="1033;" valign="bottom" height="19" align="right"><font
+              color="#000000">4</font></td>
+          <td valign="bottom" align="left"><font color="#000000">210S-1*3P
+              L=11.6MMGold-plated black</font></td>
+          <td valign="bottom" align="left"><font color="#000000">P1_1,P1_2</font></td>
+          <td valign="bottom" align="left"><font color="#000000">210S-1X3P</font></td>
+          <td sdval="2" sdnum="1033;" valign="bottom" align="right"><font color="#000000">2</font></td>
+          <td valign="bottom" align="left"><font color="#000000">210S-1*3P
+              L=11.6MMGold-plated black</font></td>
+          <td valign="bottom" align="left"><font color="#000000">Ckmtw</font></td>
+          <td valign="bottom" align="left"><font color="#000000">LCSC</font></td>
+          <td valign="bottom" align="left"><font color="#000000">C124376</font></td>
+        </tr>
+        <tr>
+          <td sdval="5" sdnum="1033;" valign="bottom" height="19" align="right"><font
+              color="#000000">5</font></td>
+          <td valign="bottom" align="left"><font color="#000000">XL-0603QYGC</font></td>
+          <td valign="bottom" align="left"><font color="#000000">LED1,LED2</font></td>
+          <td valign="bottom" align="left"><font color="#000000">LED-0603</font></td>
+          <td sdval="2" sdnum="1033;" valign="bottom" align="right"><font color="#000000">2</font></td>
+          <td valign="bottom" align="left"><font color="#000000">XL-0603QYGC</font></td>
+          <td valign="bottom" align="left"><font color="#000000">KENTO</font></td>
+          <td valign="bottom" align="left"><font color="#000000">LCSC</font></td>
+          <td valign="bottom" align="left"><font color="#000000">C2289</font></td>
+        </tr>
+        <tr>
+          <td sdval="6" sdnum="1033;" valign="bottom" height="19" align="right"><font
+              color="#000000">6</font></td>
+          <td sdval="510" sdnum="1033;" valign="bottom" align="right"><font color="#000000">510</font></td>
+          <td valign="bottom" align="left"><font color="#000000">R1,R5</font></td>
+          <td valign="bottom" align="left"><font color="#000000">0603</font></td>
+          <td sdval="2" sdnum="1033;" valign="bottom" align="right"><font color="#000000">2</font></td>
+          <td valign="bottom" align="left"><font color="#000000">RC0603FR-07510RL</font></td>
+          <td valign="bottom" align="left"><font color="#000000">YAGEO</font></td>
+          <td valign="bottom" align="left"><font color="#000000">LCSC</font></td>
+          <td valign="bottom" align="left"><font color="#000000">C114670</font></td>
+        </tr>
+        <tr>
+          <td sdval="7" sdnum="1033;" valign="bottom" height="19" align="right"><font
+              color="#000000">7</font></td>
+          <td valign="bottom" align="left"><font color="#000000">100K</font></td>
+          <td valign="bottom" align="left"><font color="#000000">R3,R4</font></td>
+          <td valign="bottom" align="left"><font color="#000000">0603</font></td>
+          <td sdval="2" sdnum="1033;" valign="bottom" align="right"><font color="#000000">2</font></td>
+          <td valign="bottom" align="left"><font color="#000000">RC0603FR-07100KL</font></td>
+          <td valign="bottom" align="left"><font color="#000000">YAGEO</font></td>
+          <td valign="bottom" align="left"><font color="#000000">LCSC</font></td>
+          <td valign="bottom" align="left"><font color="#000000">C14675</font></td>
+        </tr>
+        <tr>
+          <td sdval="8" sdnum="1033;" valign="bottom" height="19" align="right"><font
+              color="#000000">8</font></td>
+          <td valign="bottom" align="left"><font color="#000000">210S-1*20P
+              L=11.6MMGold-plated black</font></td>
+          <td valign="bottom" align="left"><font color="#000000">P3,P4</font></td>
+          <td valign="bottom" align="left"><font color="#000000">210S-1X20P</font></td>
+          <td sdval="2" sdnum="1033;" valign="bottom" align="right"><font color="#000000">2</font></td>
+          <td valign="bottom" align="left"><font color="#000000">210S-1*20P
+              L=11.6MMGold-plated black</font></td>
+          <td valign="bottom" align="left"><font color="#000000">Ckmtw</font></td>
+          <td valign="bottom" align="left"><font color="#000000">LCSC</font></td>
+          <td valign="bottom" align="left"><font color="#000000">C124374</font></td>
+        </tr>
+        <tr>
+          <td sdval="9" sdnum="1033;" valign="bottom" height="19" align="right"><font
+              color="#000000">9</font></td>
+          <td valign="bottom" align="left"><font color="#000000">Micro USB-B
+              5P_C40942</font></td>
+          <td valign="bottom" align="left"><font color="#000000">U3</font></td>
+          <td valign="bottom" align="left"><font color="#000000">USB-MICROB</font></td>
+          <td sdval="1" sdnum="1033;" valign="bottom" align="right"><font color="#000000">1</font></td>
+          <td valign="bottom" align="left"><font color="#000000">Micro USB-B
+              5P_C40942</font></td>
+          <td valign="bottom" align="left"><font color="#000000">ValuePro</font></td>
+          <td valign="bottom" align="left"><font color="#000000">LCSC</font></td>
+          <td valign="bottom" align="left"><font color="#000000">C40942</font></td>
+        </tr>
+        <tr>
+          <td sdval="10" sdnum="1033;" valign="bottom" height="19" align="right"><font
+              color="#000000">10</font></td>
+          <td sdval="20" sdnum="1033;" valign="bottom" align="right"><font color="#000000">20</font></td>
+          <td valign="bottom" align="left"><font color="#000000">R9,R11</font></td>
+          <td valign="bottom" align="left"><font color="#000000">0603</font></td>
+          <td sdval="2" sdnum="1033;" valign="bottom" align="right"><font color="#000000">2</font></td>
+          <td valign="bottom" align="left"><font color="#000000">RS-03K20R0FT</font></td>
+          <td valign="bottom" align="left"><font color="#000000">FH</font></td>
+          <td valign="bottom" align="left"><font color="#000000">LCSC</font></td>
+          <td valign="bottom" align="left"><font color="#000000">C136605</font></td>
+        </tr>
+        <tr>
+          <td sdval="11" sdnum="1033;" valign="bottom" height="19" align="right"><font
+              color="#000000">11</font></td>
+          <td valign="bottom" align="left"><font color="#000000">1.5K</font></td>
+          <td valign="bottom" align="left"><font color="#000000">R10</font></td>
+          <td valign="bottom" align="left"><font color="#000000">0603</font></td>
+          <td sdval="1" sdnum="1033;" valign="bottom" align="right"><font color="#000000">1</font></td>
+          <td valign="bottom" align="left"><font color="#000000">0603WAJ0152T5E</font></td>
+          <td valign="bottom" align="left"><font color="#000000">UniOhm</font></td>
+          <td valign="bottom" align="left"><font color="#000000">LCSC</font></td>
+          <td valign="bottom" align="left"><font color="#000000">C25989</font></td>
+        </tr>
+        <tr>
+          <td sdval="12" sdnum="1033;" valign="bottom" height="19" align="right"><font
+              color="#000000">12</font></td>
+          <td valign="bottom" align="left"><font color="#000000">100nF</font></td>
+          <td valign="bottom" align="left"><font color="#000000">C10,C11,C3,C4,C1</font></td>
+          <td valign="bottom" align="left"><font color="#000000">0603</font></td>
+          <td sdval="5" sdnum="1033;" valign="bottom" align="right"><font color="#000000">5</font></td>
+          <td valign="bottom" align="left"><font color="#000000">CL10B104KA8NNNC</font></td>
+          <td valign="bottom" align="left"><font color="#000000">SAMSUNG</font></td>
+          <td valign="bottom" align="left"><font color="#000000">LCSC</font></td>
+          <td valign="bottom" align="left"><font color="#000000">C1590</font></td>
+        </tr>
+        <tr>
+          <td sdval="13" sdnum="1033;" valign="bottom" height="19" align="right"><font
+              color="#000000">13</font></td>
+          <td valign="bottom" align="left"><font color="#000000">20pF</font></td>
+          <td valign="bottom" align="left"><font color="#000000">C13,C14,C9,C12</font></td>
+          <td valign="bottom" align="left"><font color="#000000">0603</font></td>
+          <td sdval="4" sdnum="1033;" valign="bottom" align="right"><font color="#000000">4</font></td>
+          <td valign="bottom" align="left"><font color="#000000">0603CG200J500NT</font></td>
+          <td valign="bottom" align="left"><font color="#000000">FH</font></td>
+          <td valign="bottom" align="left"><font color="#000000">LCSC</font></td>
+          <td valign="bottom" align="left"><font color="#000000">C91702</font></td>
+        </tr>
+        <tr>
+          <td sdval="14" sdnum="1033;" valign="bottom" height="19" align="right"><font
+              color="#000000">14</font></td>
+          <td valign="bottom" align="left"><font color="#000000">8MHz</font></td>
+          <td valign="bottom" align="left"><font color="#000000">X1</font></td>
+          <td valign="bottom" align="left"><font color="#000000">OSC-49S-1</font></td>
+          <td sdval="1" sdnum="1033;" valign="bottom" align="right"><font color="#000000">1</font></td>
+          <td valign="bottom" align="left"><font color="#000000">X49SD8MSD2SC</font></td>
+          <td valign="bottom" align="left"><font color="#000000">YXC</font></td>
+          <td valign="bottom" align="left"><font color="#000000">LCSC</font></td>
+          <td valign="bottom" align="left"><font color="#000000">C21263</font></td>
+        </tr>
+        <tr>
+          <td sdval="15" sdnum="1033;" valign="bottom" height="19" align="right"><font
+              color="#000000">15</font></td>
+          <td valign="bottom" align="left"><font color="#000000">1M</font></td>
+          <td valign="bottom" align="left"><font color="#000000">R6</font></td>
+          <td valign="bottom" align="left"><font color="#000000">0603</font></td>
+          <td sdval="1" sdnum="1033;" valign="bottom" align="right"><font color="#000000">1</font></td>
+          <td valign="bottom" align="left"><font color="#000000">0603WAJ0105T5E</font></td>
+          <td valign="bottom" align="left"><font color="#000000">UniOhm</font></td>
+          <td valign="bottom" align="left"><font color="#000000">LCSC</font></td>
+          <td valign="bottom" align="left"><font color="#000000">C26098</font></td>
+        </tr>
+        <tr>
+          <td sdval="16" sdnum="1033;" valign="bottom" height="19" align="right"><font
+              color="#000000">16</font></td>
+          <td valign="bottom" align="left"><font color="#000000">32.768KHz</font></td>
+          <td valign="bottom" align="left"><font color="#000000">X2</font></td>
+          <td valign="bottom" align="left"><font color="#000000">MC-306</font></td>
+          <td sdval="1" sdnum="1033;" valign="bottom" align="right"><font color="#000000">1</font></td>
+          <td valign="bottom" align="left"><font color="#000000">X803832768KGD4GI</font></td>
+          <td valign="bottom" align="left"><font color="#000000">YXC</font></td>
+          <td valign="bottom" align="left"><font color="#000000">LCSC</font></td>
+          <td valign="bottom" align="left"><font color="#000000">C12675</font></td>
+        </tr>
+        <tr>
+          <td sdval="17" sdnum="1033;" valign="bottom" height="19" align="right"><font
+              color="#000000">17</font></td>
+          <td valign="bottom" align="left"><font color="#000000">SWD</font></td>
+          <td valign="bottom" align="left"><font color="#000000">P2</font></td>
+          <td valign="bottom" align="left"><font color="#000000">HDR-4X1/2.54</font></td>
+          <td sdval="1" sdnum="1033;" valign="bottom" align="right"><font color="#000000">1</font></td>
+          <td valign="bottom" align="left"><font color="#000000">Z-211-0411-0021-001</font></td>
+          <td valign="bottom" align="left"><font color="#000000">ZHENGLING</font></td>
+          <td valign="bottom" align="left"><font color="#000000">LCSC</font></td>
+          <td valign="bottom" align="left"><font color="#000000">C152150</font></td>
+        </tr>
+        <tr>
+          <td sdval="18" sdnum="1033;" valign="bottom" height="19" align="right"><font
+              color="#000000">18</font></td>
+          <td valign="bottom" align="left"><font color="#000000">AMS1117-3.3</font></td>
+          <td valign="bottom" align="left"><font color="#000000">U8</font></td>
+          <td valign="bottom" align="left"><font color="#000000">SOT-223</font></td>
+          <td sdval="1" sdnum="1033;" valign="bottom" align="right"><font color="#000000">1</font></td>
+          <td valign="bottom" align="left"><font color="#000000">AMS1117-3.3</font></td>
+          <td valign="bottom" align="left"><font color="#000000">AMS</font></td>
+          <td valign="bottom" align="left"><font color="#000000">LCSC</font></td>
+          <td valign="bottom" align="left"><font color="#000000">C6186</font></td>
+        </tr>
+        <tr>
+          <td sdval="19" sdnum="1033;" valign="bottom" height="19" align="right"><font
+              color="#000000">19</font></td>
+          <td valign="bottom" align="left"><font color="#000000">330uF</font></td>
+          <td valign="bottom" align="left"><font color="#000000">C6</font></td>
+          <td valign="bottom" align="left"><font color="#000000">CASE-C_6032</font></td>
+          <td sdval="1" sdnum="1033;" valign="bottom" align="right"><font color="#000000">1</font></td>
+          <td valign="bottom" align="left"><font color="#000000">CA45-C6R3K337T</font></td>
+          <td valign="bottom" align="left"><font color="#000000">Hunan Xiangyee
+              in S&amp;T</font></td>
+          <td valign="bottom" align="left"><font color="#000000">LCSC</font></td>
+          <td valign="bottom" align="left"><font color="#000000">C201144</font></td>
+        </tr>
+        <tr>
+          <td sdval="20" sdnum="1033;" valign="bottom" height="19" align="right"><font
+              color="#000000">20</font></td>
+          <td valign="bottom" align="left"><font color="#000000">100uF</font></td>
+          <td valign="bottom" align="left"><font color="#000000">C5</font></td>
+          <td valign="bottom" align="left"><font color="#000000">CASE-C_6032</font></td>
+          <td sdval="1" sdnum="1033;" valign="bottom" align="right"><font color="#000000">1</font></td>
+          <td valign="bottom" align="left"><font color="#000000">CA45-C016K107T</font></td>
+          <td valign="bottom" align="left"><font color="#000000">Xiangyee</font></td>
+          <td valign="bottom" align="left"><font color="#000000">LCSC</font></td>
+          <td valign="bottom" align="left"><font color="#000000">C122646</font></td>
+        </tr>
+        <tr>
+          <td sdval="21" sdnum="1033;" valign="bottom" height="19" align="right"><font
+              color="#000000">21</font></td>
+          <td valign="bottom" align="left"><font color="#000000">STM32F103C8T6</font></td>
+          <td valign="bottom" align="left"><font color="#000000">U1</font></td>
+          <td valign="bottom" align="left"><font color="#000000">LQFP-48_7X7X05P</font></td>
+          <td sdval="1" sdnum="1033;" valign="bottom" align="right"><font color="#000000">1</font></td>
+          <td valign="bottom" align="left"><font color="#000000">STM32F103C8T6</font></td>
+          <td valign="bottom" align="left"><font color="#000000">ST</font></td>
+          <td valign="bottom" align="left"><font color="#000000">LCSC</font></td>
+          <td valign="bottom" align="left"><font color="#000000">C8734</font></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

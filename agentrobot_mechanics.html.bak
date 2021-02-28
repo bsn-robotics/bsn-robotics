@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>agentrobot_mechanics</title>
+  </head>
+  <body>
+    <h1>Разработка механики робота</h1>
+    <h2>ТЗ на механику робота </h2>
+    <p>Габариты: не более 65мм на 65мм.</p>
+    <p>Расположение двигателей симметрично относительно центра</p>
+    <p>Есть два варианта:</p>
+    <ul>
+      <li>Передача вращения с помощью зубчатого колеса</li>
+      <ul>
+        <li>Нужны колеса ---</li>
+        <li>Доболнительные зубчатые колеса ---</li>
+      </ul>
+      <li>Передача вращения с помощью зубчатого ремня +</li>
+      <ul>
+        <li>Натяжители для ремня + <a href="https://roboparts.ru/catalog/komplektuyushchie_dlya_3d_printera/shkivy/rolik-gt2-6mm-h-type/">https://roboparts.ru/catalog/komplektuyushchie_dlya_3d_printera/shkivy/rolik-gt2-6mm-h-type/</a></li>
+        <li>roboparts gt2-150-6</li>
+      </ul>
+      <li>Микроэлектродвигатель<br>
+        <a href="https://roboshop.spb.ru/mechanics/dc-motor-with-gearbox-ga12-n20">https://roboshop.spb.ru/mechanics/dc-motor-with-gearbox-ga12-n20<br>
+        </a></li>
+      <li><a href="https://amperkot.ru/msk/catalog/motorreduktor_ga12_n20_3v_100_oborotov-24254830.html">https://amperkot.ru/msk/catalog/motorreduktor_ga12_n20_3v_100_oborotov-24254830.html</a></li>
+      <li><a href="https://mgbot.ru/catalog/raznoe/motor_aslong_mr12_030_turbo/">https://mgbot.ru/catalog/raznoe/motor_aslong_mr12_030_turbo/</a></li>
+      <li><br>
+      </li>
+    </ul>
+  </body>
+</html>
