@@ -7,6 +7,35 @@
   <body>
     <h2>Список электронных компонентов на плату</h2>
     <p></p>
+    <p>Микроконтроллер и обвязка<br>
+      <br>
+      &nbsp;&nbsp;&nbsp; Микроконтроллер F103C8T6 1 шт 290р (чип и дип )<br>
+      &nbsp;&nbsp;&nbsp; или F100C8T6 105р (робошоп)<br>
+      &nbsp;&nbsp;&nbsp; Кварц 8 МГц 1 шт<br>
+      &nbsp;&nbsp;&nbsp; Кварц на 32.768 кГц 1 шт<br>
+      &nbsp;&nbsp;&nbsp; Линейный стабилизатор напряжения LM1117 TI (посмотреть
+      как сделано на ардуино или Blue Pill)<br>
+      &nbsp;&nbsp;&nbsp; или AMS1117-3.3 (робошоп)<br>
+      <br>
+      Драйвер двигателей и обвязка<br>
+      <br>
+      Энкодеры<br>
+      <br>
+      Датчик препятствия<br>
+      <br>
+      ИК-применик<br>
+      <br>
+      <br>
+      Компоненты на плату<br>
+      <br>
+      &nbsp;&nbsp;&nbsp; Конденсатор 1000 мкФ 50В<br>
+      &nbsp;&nbsp;&nbsp; Резистор 220 Ом<br>
+      <br>
+      https://altiumlibrary.com/<br>
+      <br>
+      https://www.ultralibrarian.com/<br>
+      <br>
+    </p>
     <p>BOM</p>
     <p>
     </p>
