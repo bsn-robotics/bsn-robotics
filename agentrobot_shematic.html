@@ -41,7 +41,19 @@
       <li>Акселерометр</li>
       <li>Гироскоп</li>
     </ul>
+    <h2>Принципиальная схема</h2>
+    <img src="img/shm1.jpg" alt="">
+    <p>Схема 1</p>
+    <img src="file:///home/sergius/data/bsn/bsn-robotics.github.io/Private/agent_robot/img/shm2.jpg"
+      alt="" style="width: 377px; height: 197px;">
+    <p>Схема 2</p>
     <p><br>
+    </p>
+    <p><br>
+    </p>
+    <p><br>
+    </p>
+    <p><a href="https://habr.com/ru/post/497782/">https://habr.com/ru/post/497782/</a><br>
     </p>
     <p>Основа для печатной платы это плата Blue Pill для микроконтроллера
       STM32F103C8T6.</p>
@@ -116,5 +128,171 @@
     <p><br>
     </p>
     <p>Посмотреть аналогичные для ардуино</p>
+    <p>##############################################################</p>
+    <p><b>ИК управление</b></p>
+    <p>Плюч только в том что можно одновременно сделать передачу на 100 роботов
+      без каких либо помех, как это сделать по wifi непонятно!</p>
+    <p>Остальное минусы.</p>
+    <b> </b>
+    <p><b>Wifi управление</b></p>
+    <p>Сценарий: на смартфоне создается wifi точка доступа к которой
+      подключается ESP32 или наоборот точка доступа создается на ESP8266. Он
+      позволяет управлять и с компьютера если подключиться к роутеру и со
+      смартфона.</p>
+    <p><a href="https://tproger.ru/articles/about-esp8266/">https://tproger.ru/articles/about-esp8266/</a></p>
+    <p><a href="http://arduino-kid.ru/blog/kak-sozdat-tochku-dostupa-na-esp8266-za-5-minut-upravlenie-po-wi-fi">http://arduino-kid.ru/blog/kak-sozdat-tochku-dostupa-na-esp8266-za-5-minut-upravlenie-po-wi-fi</a></p>
+    <p><a href="https://habr.com/ru/post/362623/">https://habr.com/ru/post/362623/</a></p>
+    <p> </p>
+    <b> </b>
+    <p><a href="https://esp8266.ru/forum/threads/esp8266-kak-tochka-dostupa-wi-fi.2863/">https://esp8266.ru/forum/threads/esp8266-kak-tochka-dostupa-wi-fi.2863/</a></p>
+    <p><b>Bluetoth управление</b></p>
+    <b> </b>
+    <p>Вообще зачем он нужен если можно со смартфона управлять и по wifi?</p>
+    <p>Если бы не ESP8266 ESP-01то можно было бы еще задуаться. Но он позволяет
+      управлять и с компьютера если подключиться к роутеру и со смартфона.</p>
+    <p><a href="https://arduinopro.ru/product/hc-05-module/?ymclid=16318783567387968578800001">https://arduinopro.ru/product/hc-05-module/?ymclid=16318783567387968578800001</a></p>
+    <p><a href="https://roboparts.ru/catalog/ustroystva_svyazi/bluetooth_moduli/hc-05-bluetooth/">https://roboparts.ru/catalog/ustroystva_svyazi/bluetooth_moduli/hc-05-bluetooth/</a></p>
+    <p><b>ZigBee</b></p>
+    <p>Неоправдано, т.к. не подключиться&nbsp; со смартфона.</p>
+    <p><br>
+    </p>
+    <p>##############################################################</p>
+    <p><b>Вообще можно было бы использовать много вариантов, например:</b></p>
+    <ul>
+      <li>Один esp32-c3 который выполянет все функции</li>
+      <li>Один esp32-h2 тоже самое</li>
+      <li>Один ESP32 тоже самое</li>
+      <ul>
+        <li><a href="https://amperka.ru/product/esp32-wroom-wifi-devkit-v1">https://amperka.ru/product/esp32-wroom-wifi-devkit-v1</a></li>
+      </ul>
+      <li>Один STM32WB тоже самое</li>
+      <ul>
+        <li><a href="https://www.st.com/en/microcontrollers-microprocessors/stm32wb-series.html">https://www.st.com/en/microcontrollers-microprocessors/stm32wb-series.html</a></li>
+      </ul>
+      <li>NodeMCU ESP8266</li>
+      <ul>
+        <li><a href="https://ampero.ru/nodemcu-v3-module-development-with-wi-fi-chipset-esp8266.html?ymclid=16318938123439198361500001">https://ampero.ru/nodemcu-v3-module-development-with-wi-fi-chipset-esp8266.html?ymclid=16318938123439198361500001</a></li>
+        <li><a href="https://roboshop.spb.ru/modules/nodemcu-v3-wemos?ymclid=16318938123439198361500002">https://roboshop.spb.ru/modules/nodemcu-v3-wemos?ymclid=16318938123439198361500002</a></li>
+        <li><a href="https://roboshop.spb.ru/modules/nodemcu-v3-dev-board">https://roboshop.spb.ru/modules/nodemcu-v3-dev-board</a></li>
+        <li><a href="https://amperkot.ru/spb/catalog/modul_wifi_esp8266_s_usb_nodemcu-24255083.html">https://amperkot.ru/spb/catalog/modul_wifi_esp8266_s_usb_nodemcu-24255083.html</a></li>
+        <li><br>
+        </li>
+      </ul>
+      <li><span style="color: #009900;">ESP8266 + STM32</span></li>
+      <li>ESP8266 + RISC-V MCU</li>
+      <li>...</li>
+    </ul>
+    <p>Остановимся на варианте с STM32</p>
+    <p>##############################################################</p>
+    <p><br>
+    </p>
+    <p><br>
+    </p>
+    <p>Купить ESP8266 ESP-01 </p>
+    <p><a href="https://amperkot.ru/spb/catalog/miniatyurnyiy_wifi_modul_esp8266_esp01-23871305.html">https://amperkot.ru/spb/catalog/miniatyurnyiy_wifi_modul_esp8266_esp01-23871305.html</a></p>
+    <p><a href="https://amperkot.ru/spb/catalog/radiomoduli_433mhz_peredatchik_mxfs03v_i_priemnik_mx05v-23869814.html"></a><a
+        href="https://amperkot.ru/spb/catalog/radiomoduli_433mhz_peredatchik_mxfs03v_i_priemnik_mx05v-23869814.html">https://amperkot.ru/spb/catalog/radiomoduli_433mhz_peredatchik_mxfs03v_i_priemnik_mx05v-23869814.html</a></p>
+    <p>Статья с хорошим обзором ESP</p>
+    <p><a href="https://www.compel.ru/lib/123539">https://www.compel.ru/lib/123539</a></p>
+    <p><a href="https://ru.wikipedia.org/wiki/ESP8266">https://ru.wikipedia.org/wiki/ESP8266</a></p>
+    <p><a href="https://habr.com/ru/post/547330/">https://habr.com/ru/post/547330/</a></p>
+    <p>f</p>
+    <p>##############################################################</p>
+    <p><span style="color: red;"><b>В перспективе сделать все на одном
+          контроллере RISC-V ESP32_H2 или </b></span><br>
+      <span style="color: red;"><b>ESP32_С3</b></span></p>
+    <p><span style="color: red;"><b><a href="https://www.espressif.com/en/products/socs/esp32-c3">https://www.espressif.com/en/products/socs/esp32-c3</a><br>
+        </b></span></p>
+    <p><a href="https://www.espressif.com/en/news/ESP32_H2">https://www.espressif.com/en/news/ESP32_H2</a></p>
+    <p><a href="https://www.euromobile.ru/novosti/espressif_predstavlyaet_esp32_c3/">https://www.euromobile.ru/novosti/espressif_predstavlyaet_esp32_c3/</a></p>
+    <p><br>
+    </p>
+    <p>Можно купить плату для разарботки</p>
+    <p><a href="https://docs.espressif.com/projects/esp-idf/en/latest/esp32c3/hw-reference/esp32c3/user-guide-devkitm-1.html">https://docs.espressif.com/projects/esp-idf/en/latest/esp32c3/hw-reference/esp32c3/user-guide-devkitm-1.html</a></p>
+    <p><a href="https://docs.espressif.com/projects/esp-idf/en/latest/esp32c3/hw-reference/esp32c3/user-guide-devkitc-02.html">https://docs.espressif.com/projects/esp-idf/en/latest/esp32c3/hw-reference/esp32c3/user-guide-devkitc-02.html</a></p>
+    <p>Отличаются тем что у второй есть 4 MB SPI Flash.</p>
+    <p>Купить</p>
+    <p><a href="https://ru.mouser.com/ProductDetail/Espressif-Systems/ESP32-C3-DevKitM-1?qs=pUKx8fyJudB1sOWbbEnGFw%3D%3D">https://ru.mouser.com/ProductDetail/Espressif-Systems/ESP32-C3-DevKitM-1?qs=pUKx8fyJudB1sOWbbEnGFw%3D%3D</a></p>
+    <p><a href="https://aliexpress.ru/item/1005003143280385.html">https://aliexpress.ru/item/1005003143280385.html</a></p>
+    <p><br>
+    </p>
+    <p><br>
+    </p>
+    <p>Преимущество в том что объединены хороший процессор, wifi, bluetooth и
+      это будет дешевле.</p>
+    <p>ESP32-C3: первое знакомство. Заменим ESP8266? <a href="https://habr.com/ru/post/541874/">https://habr.com/ru/post/541874/</a></p>
+    <p>Комментариии тоже интересные</p>
+    <p>Пока не понятно выстрели или нет</p>
+    <blockquote>
+      <p>судя по приведённой информации, ESP32-C3 это какое-то недоразумение,
+        ESP8266 тут как раз аналог, а не замена.<br>
+        <br>
+        При наличии полноценного ESP32 с ULP на борту использование C3 кажется
+        бессмысленным.<br>
+        <br>
+        Я так понимаю, что просто очень хочется RISС-V присобачить, его сейчас
+        везде агрессивно пихать начинают<br>
+        0<br>
+        nochkin<br>
+        12.02.2021 в 21:39<br>
+        В ESP8266 тоже нет ULP. Почему тогда ESP32-C3 это недоразумение?<br>
+        ESP8266 уже давно устарел по разных критериям и ему давно хочется найти
+        замену. ESP32 получается дороже.<br>
+        RISC-V не требует таких же лицензионных отчислений от покупателей как
+        Xtensa, например.</p>
+    </blockquote>
+    ##############################################################
+    <p>Можно использовать SOC c wifi и Bluetooth</p>
+    <p>Bluetooth есть в серии STM32WB</p>
+    <p><a href="https://www.st.com/en/microcontrollers-microprocessors/stm32-wireless-mcus.html">https://www.st.com/en/microcontrollers-microprocessors/stm32-wireless-mcus.html</a></p>
+    <p><a href="https://spb.terraelectronica.ru/news/6376">https://spb.terraelectronica.ru/news/6376</a></p>
+    <p>Еще другие решения</p>
+    <p><a href="https://www.cypress.com/products/psoc-6-microcontrollers-32-bit-arm-cortex-m4m0?utm_source=GoogleCPC&amp;utm_medium=GoogleAds&amp;utm_campaign=g-css-eu-en-g-inductioncooker_products_PSoC%C2%AE6microcontroller&amp;gclid=EAIaIQobChMItfivlJeG8wIV0kaRBR0ugwd2EAAYASAAEgKcHfD_BwE&amp;gclsrc=aw.ds">https://www.cypress.com/products/psoc-6-microcontrollers-32-bit-arm-cortex-m4m0?utm_source=GoogleCPC&amp;utm_medium=GoogleAds&amp;utm_campaign=g-css-eu-en-g-inductioncooker_products_PSoC%C2%AE6microcontroller&amp;gclid=EAIaIQobChMItfivlJeG8wIV0kaRBR0ugwd2EAAYASAAEgKcHfD_BwE&amp;gclsrc=aw.ds</a></p>
+    <p><a href="https://botland.store/arduino-compatible-boards-dfrobot/13504-dfrobot-beetle-esp32-iot-microcontroller-with-wifi-bluetooth.html">https://botland.store/arduino-compatible-boards-dfrobot/13504-dfrobot-beetle-esp32-iot-microcontroller-with-wifi-bluetooth.html</a></p>
+    <p><a href="https://www.microchip.com/en-us/product/ATWINC3400">https://www.microchip.com/en-us/product/ATWINC3400</a></p>
+    <p><a href="https://www.nxp.com/products/wireless/wi-fi-plus-bluetooth:WIFI-BLUETOOTH">https://www.nxp.com/products/wireless/wi-fi-plus-bluetooth:WIFI-BLUETOOTH</a></p>
+    <p><a href="https://www.circuitspecialists.com/ESP32-BATT.html">https://www.circuitspecialists.com/ESP32-BATT.html</a></p>
+    <p>а</p>
+    <p>Или колхоз типа</p>
+    <p><a href="https://www.electroniclinic.com/esp8266-bluetooth-hc05-bluetooth-interfacing-with-nodemcu-esp8266/">https://www.electroniclinic.com/esp8266-bluetooth-hc05-bluetooth-interfacing-with-nodemcu-esp8266/</a></p>
+    <p>а</p>
+    <p>##############################################################</p>
+    <p>Инфракрасный приемопередатчик с Wi-Fi на ESP8285</p>
+    <p><a href="https://amperkot.ru/spb/catalog/infrakrasnyiy_priemoperedatchik_s_wifi_na_esp8285-39107005.html">https://amperkot.ru/spb/catalog/infrakrasnyiy_priemoperedatchik_s_wifi_na_esp8285-39107005.html</a></p>
+    <p>ESP-01 <a href="https://amperkot.ru/spb/catalog/miniatyurnyiy_wifi_modul_esp8266_esp01-23871305.html#description">https://amperkot.ru/spb/catalog/miniatyurnyiy_wifi_modul_esp8266_esp01-23871305.html#description</a></p>
+    <p>##############################################################</p>
+    <p>Подключение Liion батареи</p>
+    <p><a href="https://amperkot.ru/spb/catalog/d1_mini_shild_dlya_podklyucheniya_liion_batarei-38900409.html">https://amperkot.ru/spb/catalog/d1_mini_shild_dlya_podklyucheniya_liion_batarei-38900409.html</a></p>
+    <p><br>
+    </p>
+    <p>##############################################################</p>
+    <p>211110</p>
+    <p><b>Altium</b></p>
+    <p><a href="https://gitlab.com/donets/altium-base">https://gitlab.com/donets/altium-base</a></p>
+    <p><b>Kikad</b></p>
+    <p>Репозиторий библиотек компонентов Kicad по ГОСТ. <a href="https://gitlab.com/donets/kicad-base-gost">https://gitlab.com/donets/kicad-base-gost</a></p>
+    <p>Статья о различиях Altium и kikad <a href="https://blog.radiotech.kz/programmy/o-perekhode-s-altium-designer-na-kicad-5/">https://blog.radiotech.kz/programmy/o-perekhode-s-altium-designer-na-kicad-5/</a></p>
+    <p>Тема с осуждением <a href="https://www.radiokot.ru/forum/viewtopic.php?p=3197469">https://www.radiokot.ru/forum/viewtopic.php?p=3197469</a></p>
+    <p>STM32 и Kikad</p>
+    <p><a href="https://eax.me/kicad/">https://eax.me/kicad/</a></p>
+    <p><a href="https://eax.me/stm32-on-breadboard/">https://eax.me/stm32-on-breadboard/</a></p>
+    <p><a href="https://github.com/afiskon/stm32-on-breadboard">https://github.com/afiskon/stm32-on-breadboard</a></p>
+    <p>* <a href="http://forum.easyelectronics.ru/viewtopic.php?f=35&amp;t=34304">http://forum.easyelectronics.ru/viewtopic.php?f=35&amp;t=34304</a></p>
+    <p>f</p>
+    <p><b>easyEDA</b></p>
+    <p><a href="https://www.the-robot.ru/study/easyeda-urok-1-razvodka-pervoj-platy/">https://www.the-robot.ru/study/easyeda-urok-1-razvodka-pervoj-platy/</a></p>
+    <p><a href="https://blog.dubkov.org/electronics/easyeda-starter-guide/5/">https://blog.dubkov.org/electronics/easyeda-starter-guide/5/</a></p>
+    <p><a href="https://esp8266.ru/easyeda-quick-start/">https://esp8266.ru/easyeda-quick-start/</a></p>
+    <p><a href="https://zen.yandex.ru/media/id/5ecfff87c6190a32cfb018b7/vvedenie-v-prototipirovanie-s-easyeda-chast-1-sozdanie-proekta-5f2023c86312b0026d092d2c">https://zen.yandex.ru/media/id/5ecfff87c6190a32cfb018b7/vvedenie-v-prototipirovanie-s-easyeda-chast-1-sozdanie-proekta-5f2023c86312b0026d092d2c</a></p>
+    <p><br>
+    </p>
+    <p><b>Онлайн-EDA Upverter (by Altium)</b></p>
+    <p><a href="https://habr.com/ru/post/540226/">https://habr.com/ru/post/540226/</a></p>
+    <p><b>PCAD</b></p>
+    <p>EasyEDA vs Upverter vs KiCAD vs EAGLE&nbsp; <a href="https://youtu.be/LLVz4K23mFY">https://youtu.be/LLVz4K23mFY</a></p>
+    <p>Российский след в западных EDA <a href="https://habr.com/ru/post/473694/">https://habr.com/ru/post/473694/</a></p>
+    <p>f</p>
+    <p><b><br>
+      </b> </p>
   </body>
 </html>

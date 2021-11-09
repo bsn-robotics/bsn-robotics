@@ -34,11 +34,36 @@
       https://altiumlibrary.com/<br>
       <br>
       https://www.ultralibrarian.com/<br>
-      <br>
+    </p>
+    <p>DRV8833 в корпусе HTSSOP-16 </p>
+    <p>========================================================</p>
+    <p><b>Кварц 8 МГц</b></p>
+    <p>тип корпуса HC-49S</p>
+    <p><a href="https://www.platan.ru/cgi-bin/qwery.pl/id=2013051596">https://www.platan.ru/cgi-bin/qwery.pl/id=2013051596</a></p>
+    <p><a href="https://www.necspb.com/catalog/kvartsevye_rezonatory/12_84203_344125/">https://www.necspb.com/catalog/kvartsevye_rezonatory/12_84203_344125/</a></p>
+    <p><a href="https://dirtypcbs.com/assets/datasheets/X49SD8MSD2SC.pdf">https://dirtypcbs.com/assets/datasheets/X49SD8MSD2SC.pdf</a></p>
+    <p><br>
+    </p>
+    <p><b>Тактовая кнопка </b></p>
+    <p><a href="https://static.chipdip.ru/lib/551/DOC001551938.pdf">https://static.chipdip.ru/lib/551/DOC001551938.pdf</a></p>
+    <p><a href="https://www.chipdip.ru/product/kls7-ts6601-5.0-180">https://www.chipdip.ru/product/kls7-ts6601-5.0-180</a></p>
+    <p><br>
+    </p>
+    <p><br>
+    </p>
+    <p>Библиотека компонентов pcad</p>
+    <p><a href="https://www.qrz.ru/software/detail/pcad_4_5_biblioteka_komponentov_619">https://www.qrz.ru/software/detail/pcad_4_5_biblioteka_komponentov_619</a></p>
+    <p><br>
+    </p>
+    <p>========================================================</p>
+    <p><br>
+    </p>
+    <p><br>
+    </p>
+    <p><br>
     </p>
     <p>BOM</p>
-    <p>
-    </p>
+    <p> </p>
     <table cellspacing="0" border="0">
       <colgroup width="32"></colgroup> <colgroup width="407"></colgroup> <colgroup
         width="187"></colgroup> <colgroup width="175"></colgroup> <colgroup width="99"></colgroup>
@@ -319,5 +344,9 @@
         </tr>
       </tbody>
     </table>
+    <p>Источник</p>
+    <p><a href="https://easyeda.com/r3bers/STM32F103C8T6-Test-Board">https://easyeda.com/r3bers/STM32F103C8T6-Test-Board</a></p>
+    <p><br>
+    </p>
   </body>
 </html>
