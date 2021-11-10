@@ -44,8 +44,7 @@
     <h2>Принципиальная схема</h2>
     <img src="img/shm1.jpg" alt="">
     <p>Схема 1</p>
-    <img src="file:///home/sergius/data/bsn/bsn-robotics.github.io/Private/agent_robot/img/shm2.jpg"
-      alt="" style="width: 377px; height: 197px;">
+    <img src="img/shm2.jpg" style="width: 377px; height: 197px;">
     <p>Схема 2</p>
     <p><br>
     </p>
@@ -62,6 +61,10 @@
     <p><a href="https://stm32-base.org/boards/STM32F103C8T6-Blue-Pill.html">https://stm32-base.org/boards/STM32F103C8T6-Blue-Pill.html</a></p>
     <p><a href="https://stm32-base.org/guides/getting-started">https://stm32-base.org/guides/getting-started</a></p>
     <p><a href="https://stm32-base.org/guides/setup">https://stm32-base.org/guides/setup</a></p>
+    <p><br>
+    </p>
+    <p><a href="https://stm32duinoforum.com/forum/wiki_subdomain/index_title_Blue_Pill.html">https://stm32duinoforum.com/forum/wiki_subdomain/index_title_Blue_Pill.html</a></p>
+    <p>f</p>
     <p><br>
     </p>
     <p><b>Проектирование в Altium Blue Pill design and BOM</b></p>
@@ -291,7 +294,9 @@
     <p><b>PCAD</b></p>
     <p>EasyEDA vs Upverter vs KiCAD vs EAGLE&nbsp; <a href="https://youtu.be/LLVz4K23mFY">https://youtu.be/LLVz4K23mFY</a></p>
     <p>Российский след в западных EDA <a href="https://habr.com/ru/post/473694/">https://habr.com/ru/post/473694/</a></p>
-    <p>f</p>
+    <p>PCAD <a href="https://intuit.ru/studies/courses/674/530/lecture/11946">https://intuit.ru/studies/courses/674/530/lecture/11946</a></p>
+    <p><br>
+    </p>
     <p><b><br>
       </b> </p>
   </body>
