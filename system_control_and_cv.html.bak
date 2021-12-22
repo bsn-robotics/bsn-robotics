@@ -9,6 +9,7 @@
     <p>Qt - интерфейс</p>
     <p>OpenCV - распознавание маркера</p>
     <p>SFML - симулятор</p>
+    <p>raylib - симулятор</p>
     <p><br>
     </p>
     <p><br>
@@ -150,8 +151,423 @@ LD_LIBRARY_PATH=/media/sergius/C43A7E5B3A7E4B06/data/projects/ITMO/NIR/SFML/SFML
         #&nbsp; #&nbsp; #&nbsp; #&nbsp; #&nbsp; #&nbsp; #&nbsp; #</code></p>
     <p>Если в заданном радиусе от пятнаесть другое пятно то, считать их
       соединенными. Если таким образом образуется замкнутый контур, то описать
-      вокруг такого контура окружность. </p>
-    <p>Пятна ближайщие к окружность будут являться углами квадрата.</p>
+      вокруг такого контура окружность.<br>
+      Пятна ближайщие к окружность будут являться углами квадрата.</p>
+    <p>=============================================================</p>
+    <p>Статьи по обнаружению Arucko маркеров </p>
+    <p><a href="https://habr.com/ru/post/482220/">https://habr.com/ru/post/482220/</a></p>
+    <p><a href="https://docs.opencv.org/3.4/d5/dae/tutorial_aruco_detection.html">https://docs.opencv.org/3.4/d5/dae/tutorial_aruco_detection.html</a></p>
+    <p><a href="https://learnopencv.com/augmented-reality-using-aruco-markers-in-opencv-c-python/?ck_subscriber_id=524384115">https://learnopencv.com/augmented-reality-using-aruco-markers-in-opencv-c-python/?ck_subscriber_id=524384115</a></p>
+    <p>Thresholding</p>
+    <p>Perspective removing</p>
+    <p><br>
+    </p>
+    <p>Распознавание маркера дополненной реальности <a href="https://habr.com/ru/post/135659/">https://habr.com/ru/post/135659/</a></p>
+    <p><br>
+    </p>
+    <p>=============================================================</p>
+    <p>Видео в котором решается похожая задача</p>
+    <p><a href="https://youtu.be/BMpSJzTXnpk">https://youtu.be/BMpSJzTXnpk</a></p>
+    <p>а</p>
+    <p>=============================================================</p>
+    <p>raylib 4.0.0</p>
+    <p>export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib</p>
+    <p>Как работают потоки в этом приложении&nbsp; ./core_loading_thread</p>
+    <p>Интересно, что можно посмотерть на себя со стороны core_split_screen</p>
+    <p>./core_window_flags</p>
+    <p>Флаги запуска в окне это важно!</p>
+    <p><br>
+    </p>
+    <p><br>
+    </p>
+    <p>raylib and bullet_physics <a href="https://youtu.be/VsDLCWlEdu8">https://youtu.be/VsDLCWlEdu8</a></p>
+    <p>Выбор элемента</p>
+    <p>/core_3d_picking</p>
+    <p>Выбор рамкой</p>
+    <p>./shapes_rectangle_scaling</p>
+    <p>Просто черный квадрат, зато какя анимация!</p>
+    <p>shapes_easings_box_anim</p>
+    <p>core_3d_camera_first_person О первого лица</p>
+    <p>models_box_collisions - передвижение по осям</p>
+    <p>./textures_mouse_painting - простая рисовалка </p>
+    <p>./text_draw_3d - текст в 3d, можно испольтзовать для lcs</p>
+    <p>=============================================================<br>
+    </p>
+    <p>mc копирование названий и текста</p>
+    <p><a href="https://bbs.archlinux.org/viewtopic.php?id=183316">https://bbs.archlinux.org/viewtopic.php?id=183316</a></p>
+    <p>f</p>
+    <p>Отладка C++ в VS Code <a href="https://habr.com/ru/company/microsoft/blog/333680/">https://habr.com/ru/company/microsoft/blog/333680/</a></p>
+    <p><br>
+    </p>
+    <p>Сделать симулятор ПДД</p>
+    <p>Передача структур по значению плохо?</p>
+    <p><a href="https://habr.com/ru/post/492360/">https://habr.com/ru/post/492360/</a></p>
+    <p>а</p>
+    <p><a href="https://github.com/vtereshkov/umka-lang">https://github.com/vtereshkov/umka-lang</a></p>
+    <p><br>
+    </p>
+    <p>raylib rts</p>
+    <p><a href="https://itch.io/games/made-with-raylib">https://itch.io/games/made-with-raylib</a></p>
+    <p><br>
+    </p>
+    <p><a href="https://github.com/victorfisac/Physac">https://github.com/victorfisac/Physac</a></p>
+    <p><br>
+    </p>
+    <p><br>
+    </p>
+    <p>Универсальный симулятоор войны, какая разница самолеты, корабли или
+      танки, роботы, ракеты, все равно это что то стреляющее и поражающее цель.</p>
+    <p>Юнит - радар.</p>
+    <p><br>
+    </p>
+    <p>игровые браузерные движки</p>
+    <p><a href="https://playcanvas.com/">https://playcanvas.com/</a></p>
+    <p><br>
+    </p>
+    <p>sfml vs sdl2 2020 <a href="https://www.reddit.com/r/gamedev/comments/fk8c1q/sfml_vs_sdl_in_2020/">https://www.reddit.com/r/gamedev/comments/fk8c1q/sfml_vs_sdl_in_2020/</a></p>
+    <p><a href="https://www.reddit.com/r/gamedev/comments/re4zvh/modern_sdl_programming_tips_tricks/">https://www.reddit.com/r/gamedev/comments/re4zvh/modern_sdl_programming_tips_tricks/</a></p>
+    <p>f</p>
+    <p>Сдеалть симултор роботов для продажи чтобы использовали крпные компании.</p>
+    <p><br>
+    </p>
+    <p>games</p>
+    <p><a href="https://store.steampowered.com/app/46510/Syberia_II/">https://store.steampowered.com/app/46510/Syberia_II/</a></p>
+    <p><br>
+    </p>
+    <p>raylib tutorial</p>
+    <p><a href="https://www.youtube.com/watch?v=JE7F7DLEjbo">https://www.youtube.com/watch?v=JE7F7DLEjbo</a></p>
+    <p><a href="https://youtu.be/JE7F7DLEjbo">https://youtu.be/JE7F7DLEjbo</a></p>
+    <p><a href="https://www.youtube.com/watch?v=x83j0vMCbEI">https://www.youtube.com/watch?v=x83j0vMCbEI</a></p>
+    <p><br>
+    </p>
+    <p><br>
+    </p>
+    <p><br>
+    </p>
+    <p>С++ игровые движки</p>
+    <p><a href="https://gamefromscratch.com/c-game-engines/">https://gamefromscratch.com/c-game-engines/</a></p>
+    <p><a href="https://github.com/hugoam/toy?ref=bestofcpp.com">https://github.com/hugoam/toy?ref=bestofcpp.com</a></p>
+    <p><a href="https://github.com/amzeratul/halley?ref=bestofcpp.com">https://github.com/amzeratul/halley?ref=bestofcpp.com</a></p>
+    <p>5 <a href="https://github.com/storm-devs/storm-engine?ref=bestofcpp.com">https://github.com/storm-devs/storm-engine?ref=bestofcpp.com</a></p>
+    <p><br>
+    </p>
+    <p>Тот факт что Unigine сделали в Томске, говорит о том что главное идея и
+      вождь который руководит всем этим.</p>
+    <p><a href="https://defold.com/open/">https://defold.com/open/</a></p>
+    <p><br>
+    </p>
+    <p>Making a Game With C++ and SDL2</p>
+    <p><a href="https://youtu.be/iEn0ozP-jxc">https://youtu.be/iEn0ozP-jxc</a></p>
+    <p><br>
+    </p>
+    <p><a href="https://unigine.com/#developers">https://unigine.com/#developers</a></p>
+    <p><br>
+    </p>
+    <br>
+    <p><br>
+    </p>
+    <p>Сайт с мыслями Балахоновых</p>
+    <p>Сделать что-то нужно для других, надо искать иеди, что интересное делать</p>
+    <p><br>
+    </p>
+    <p>55555 <a href="https://bestofcpp.com/">https://bestofcpp.com/</a></p>
+    <p><br>
+    </p>
+    <p><a href="https://bestofcpp.com/repo/raysan5-raylib-game-template-cpp-game-engine">https://bestofcpp.com/repo/raysan5-raylib-game-template-cpp-game-engine</a></p>
+    <p><br>
+    </p>
+    <p>55555 <a href="https://github.com/TheLartians/ModernCppStarter?ref=bestofcpp.com">https://github.com/TheLartians/ModernCppStarter?ref=bestofcpp.com</a></p>
+    <p> <a href="https://bestofcpp.com/repo/TheLartians-ModernCppStarter-cpp-project-starter-templates">https://bestofcpp.com/repo/TheLartians-ModernCppStarter-cpp-project-starter-templates</a></p>
+    <p><br>
+    </p>
+    <p><br>
+    </p>
+    <p>OpenCV</p>
+    <p><a href="https://www.indiegogo.com/projects/opencv-ai-kit-lite#/">https://www.indiegogo.com/projects/opencv-ai-kit-lite#/</a></p>
+    <p><br>
+    </p>
+    <p>Робот мерченжайзер и все такое</p>
+    <p><br>
+    </p>
+    <p>Роботы</p>
+    <p><a href="https://youtu.be/v4vndsrtIsA">https://youtu.be/v4vndsrtIsA</a></p>
+    <p><a href="https://youtu.be/5WoKvUYKpuQ">https://youtu.be/5WoKvUYKpuQ</a></p>
+    <p><br>
+    </p>
+    <p><br>
+    </p>
+    <p>job</p>
+    <p><a href="https://opencv.org/c-engineer-opencv-org/">https://opencv.org/c-engineer-opencv-org/</a></p>
+    <p>matrix lib</p>
+    <p><a href="https://github.com/hosseinmoein/Matrix?ref=bestofcpp.com">https://github.com/hosseinmoein/Matrix?ref=bestofcpp.com</a></p>
+    <p><br>
+    </p>
+    <p><br>
+    </p>
+    <p><a href="https://github.com/PardCode/OpenGL-3D-Game-Tutorial-Series?ref=bestofcpp.com">https://github.com/PardCode/OpenGL-3D-Game-Tutorial-Series?ref=bestofcpp.com</a></p>
+    <p>55555 <a href="https://github.com/changkun/modern-cpp-tutorial?ref=bestofcpp.com">https://github.com/changkun/modern-cpp-tutorial?ref=bestofcpp.com</a></p>
+    <p><br>
+    </p>
+    <p>Пираты Карибского моря (игра)</p>
+    <p><a href="https://ru.wikipedia.org/wiki/%D0%9F%D0%B8%D1%80%D0%B0%D1%82%D1%8B_%D0%9A%D0%B0%D1%80%D0%B8%D0%B1%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BC%D0%BE%D1%80%D1%8F_%28%D0%B8%D0%B3%D1%80%D0%B0%29">https://ru.wikipedia.org/wiki/%D0%9F%D0%B8%D1%80%D0%B0%D1%82%D1%8B_%D0%9A%D0%B0%D1%80%D0%B8%D0%B1%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BC%D0%BE%D1%80%D1%8F_(%D0%B8%D0%B3%D1%80%D0%B0)</a></p>
+    <p><br>
+    </p>
+    <p>Корсары 4</p>
+    <p><a href="https://vk.com/corsars4blackmark">https://vk.com/corsars4blackmark</a></p>
+    <p><br>
+      Выражаясь простым языком - Black Sun Game Publishing одержали еще одну
+      победу, охрана торговой марки «Kоpcаpы»прекращена. В свою очередь Дмитрий
+      Архипов заявил, что решение суда будет оспорено.<br>
+      <br>
+      До окончания компании по сбору средств на игру «Корсары: Черная метка»
+      остается 41 день, а собрано 147 500 рублей, что всего на 6 200 рублей
+      больше, чем было 13 марта. Алексей Яровит (глава Black Sun Game
+      Publishing) обещает в скором времени поделиться новой информацией и дать
+      ссылки, вероятно на новый сайт, посвящённый разрабатываемой игре.<br>
+      Новость взята с сайта Гавани Корсаров.</p>
+    <p><a href="https://vk.com/rogergamestudio">https://vk.com/rogergamestudio</a></p>
+    <p><a href="https://www.youtube.com/watch?v=2mNif06QFNw">https://www.youtube.com/watch?v=2mNif06QFNw</a></p>
+    <p><br>
+    </p>
+    <p>5 <a href="https://github.com/hugoam/toy?ref=bestofcpp.com">https://github.com/hugoam/toy?ref=bestofcpp.com</a></p>
+    <p>============================================================</p>
+    <p>Обязательно сделать робота для прожади горячих бутербродов!!!!!!!!!!!</p>
+    <p><br>
+    </p>
+    <p>============================================================</p>
+    <p><b>ЛУТ</b></p>
+    <p>Изготовление печатных плат ЛУТ'ом от А до Я</p>
+    <p><a href="https://habr.com/ru/post/451314/">https://habr.com/ru/post/451314/</a></p>
+    <p><a href="https://mysku.ru/blog/aliexpress/25948.html">https://mysku.ru/blog/aliexpress/25948.html</a></p>
+    <p><br>
+    </p>
+    <p><b>Бумага</b></p>
+    <p><a href="https://forum.cxem.net/index.php?/topic/154427-%D1%82%D0%B5%D1%81%D1%82-%D0%B1%D1%83%D0%BC%D0%B0%D0%B3%D0%B8-%D0%B4%D0%BB%D1%8F-%D0%BB%D1%83%D1%82/">https://forum.cxem.net/index.php?/topic/154427-%D1%82%D0%B5%D1%81%D1%82-%D0%B1%D1%83%D0%BC%D0%B0%D0%B3%D0%B8-%D0%B4%D0%BB%D1%8F-%D0%BB%D1%83%D1%82/</a></p>
+    <p><a href="https://youtu.be/QJ4Y0gV3G6M">https://youtu.be/QJ4Y0gV3G6M</a></p>
+    <p><a href="https://vrtp.ru/index.php?showtopic=27381">https://vrtp.ru/index.php?showtopic=27381</a></p>
+    <p><a href="http://forum.amperka.ru/threads/%D0%9A%D0%B0%D0%BA%D0%BE%D0%B9-%D1%81%D0%B0%D0%BC%D1%8B%D0%B9-%D0%BB%D1%83%D1%87%D1%88%D0%B8%D0%B9-%D1%81%D0%BF%D0%BE%D1%81%D0%BE%D0%B1-%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D0%B8-%D0%BF%D0%BB%D0%B0%D1%82-%D0%9A%D0%B0%D0%BA-%D0%B4%D0%B5%D0%BB%D0%B0%D0%B5%D1%82%D0%B5-%D0%B2%D1%8B.6383/page-2">http://forum.amperka.ru/threads/%D0%9A%D0%B0%D0%BA%D0%BE%D0%B9-%D1%81%D0%B0%D0%BC%D1%8B%D0%B9-%D0%BB%D1%83%D1%87%D1%88%D0%B8%D0%B9-%D1%81%D0%BF%D0%BE%D1%81%D0%BE%D0%B1-%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D0%B8-%D0%BF%D0%BB%D0%B0%D1%82-%D0%9A%D0%B0%D0%BA-%D0%B4%D0%B5%D0%BB%D0%B0%D0%B5%D1%82%D0%B5-%D0%B2%D1%8B.6383/page-2</a></p>
+    <p><br>
+    </p>
+    <p>Глянцевая фотобумага Lomond для ЛУТ</p>
+    <p><br>
+    </p>
+    <p>Глянцевая бумага ЛУТ тест фотобумаги LOMOND 170</p>
+    <p><a href="https://youtu.be/8UzkVZnhaZQ">https://youtu.be/8UzkVZnhaZQ</a></p>
+    <p>ЛУТ на матовой бумаге</p>
+    <p><a href="http://we.easyelectronics.ru/vvmk/staraya-pesnya-o-lute-na-matovoy-bumage.html">http://we.easyelectronics.ru/vvmk/staraya-pesnya-o-lute-na-matovoy-bumage.html</a></p>
+    <p>а</p>
+    <p>Термотрансферная бумага и Lomond для ЛУТ </p>
+    <p><a href="https://youtu.be/7P-xqIBqJzM">https://youtu.be/7P-xqIBqJzM</a></p>
+    <p>а</p>
+    <p><br>
+    </p>
+    <p><br>
+    </p>
+    <p><b>Lomond 0807435</b></p>
+    <p>Бумага Lomond A4 0807435 140г/м2 50 лист.</p>
+    <p>55555 <a href="https://ziblog.ru/2013/09/05/termotransfernaya-bumaga-ldquo-lomond-transfer-ldquo-dlya-lut-llt.html">https://ziblog.ru/2013/09/05/termotransfernaya-bumaga-ldquo-lomond-transfer-ldquo-dlya-lut-llt.html</a></p>
+    <p><a href="http://www.lomond.ru/node/49666">http://www.lomond.ru/node/49666</a></p>
+    <p><a href="https://www.dns-shop.ru/product/8aa9c5edaf628a5a/bumaga-dla-termoperenosa-lomond-0807435/characteristics/">https://www.dns-shop.ru/product/8aa9c5edaf628a5a/bumaga-dla-termoperenosa-lomond-0807435/characteristics/</a></p>
+    <p><a href="https://market.yandex.ru/product--bumaga-lomond-a4-0807435-140g-m2-50-list/677429023?clid=703&amp;cpa=1">https://market.yandex.ru/product--bumaga-lomond-a4-0807435-140g-m2-50-list/677429023?clid=703&amp;cpa=1</a></p>
+    <p><a href="https://www.foroffice.ru/products/description/168885.html">https://www.foroffice.ru/products/description/168885.html</a></p>
+    <p><b>Lomond 0807430</b></p>
+    <p><br>
+    </p>
+    <p><br>
+    </p>
+    <p>Термофаксовая бумага</p>
+    <p><a href="https://ziblog.ru/2013/03/05/samodelnaya-pechatnaya-plata-lut-llt.html">https://ziblog.ru/2013/03/05/samodelnaya-pechatnaya-plata-lut-llt.html</a></p>
+    <p><a href="https://www.radiokot.ru/forum/viewtopic.php?f=8&amp;t=27403&amp;sid=699dc205b194a1f03a1e33a78623e097&amp;start=100">https://www.radiokot.ru/forum/viewtopic.php?f=8&amp;t=27403&amp;sid=699dc205b194a1f03a1e33a78623e097&amp;start=100</a></p>
+    <p><br>
+    </p>
+    <p>смоклейки (обратная часть)</p>
+    <p>&nbsp;отлично подложка от оракла подходит</p>
+    <p><br>
+    </p>
+    <p><br>
+    </p>
+    <p>============================================================</p>
+    <p>Изготовление печатной платы методом ЛУТ девушкой </p>
+    <p><a href="https://youtu.be/8g3IT3BO6Ok">https://youtu.be/8g3IT3BO6Ok</a></p>
+    <p><a href="https://youtu.be/WFKO-TGJhUo">https://youtu.be/WFKO-TGJhUo</a></p>
+    <p>Термотрансферная бумага и Lomond для ЛУТ</p>
+    <p><a href="https://youtu.be/7P-xqIBqJzM">https://youtu.be/7P-xqIBqJzM</a></p>
+    <p><br>
+    </p>
+    <p><br>
+    </p>
+    <p><br>
+    </p>
+    <p>Разводка печатных плат в Sprint Layout 6</p>
+    <p><a href="https://youtu.be/OtPnW9CphdU">https://youtu.be/OtPnW9CphdU</a></p>
+    <p><br>
+    </p>
+    <p>С помощью фотошаблона</p>
+    <p>Жидкий фоторезист. Нанесение и проявка.</p>
+    <p><a href="https://youtu.be/3kXVhmlWfW0">https://youtu.be/3kXVhmlWfW0</a></p>
+    <p>Изготовление печатных плат с помощью фоторезиста: полный цикл со всеми
+      подробностями.</p>
+    <p><a href="https://youtu.be/GKWEx7dW8v8">https://youtu.be/GKWEx7dW8v8</a></p>
+    <br>
+    <p><br>
+    </p>
+    <p><br>
+    </p>
+    <p><b>Стеклотекстолит</b></p>
+    <p>5 <a href="https://www.chipdip.ru/product0/9000269531">https://www.chipdip.ru/product0/9000269531</a></p>
+    <p><br>
+    </p>
+    <p>Картридж G&amp;G NT-Q2612A, черный</p>
+    <p><a href="https://www.dns-shop.ru/product/e6e56259ae058a5a/kartridz-lazernyj-netproduct-q2612a-cernyj/opinion/">https://www.dns-shop.ru/product/e6e56259ae058a5a/kartridz-lazernyj-netproduct-q2612a-cernyj/opinion/</a></p>
+    <p><a href="https://www.dns-shop.ru/product/2d0738504f74526f/kartridz-lazernyj-colouring-cg-q2612a703-cernyj/">https://www.dns-shop.ru/product/2d0738504f74526f/kartridz-lazernyj-colouring-cg-q2612a703-cernyj/</a></p>
+    <p><a href="https://www.dns-shop.ru/product/e4c5fd266b2c3330/kartridz-lazernyj-colortek-q2612a-cernyj/">https://www.dns-shop.ru/product/e4c5fd266b2c3330/kartridz-lazernyj-colortek-q2612a-cernyj/</a></p>
+    <p><a href="https://www.dns-shop.ru/product/013e289fca171b80/kartridz-lazernyj-aceline-ns-q2612a-hp-12a-cernyj/">https://www.dns-shop.ru/product/013e289fca171b80/kartridz-lazernyj-aceline-ns-q2612a-hp-12a-cernyj/</a></p>
+    <p><a href="https://www.dns-shop.ru/product/b0b0aa78bf693330/kartridz-lazernyj-aceline-ns-q2612a-cernyj/">https://www.dns-shop.ru/product/b0b0aa78bf693330/kartridz-lazernyj-aceline-ns-q2612a-cernyj/</a></p>
+    <p>Маркер для заделываия ошибк (Перманентый маркер)</p>
+    <p>Шкурка нулевка</p>
+    <p>Хлорное железо</p>
+    <p><br>
+    </p>
+    <p>Флюс</p>
+    <p>Паяльная маска</p>
+    <p>Паяльная паста</p>
+    <p><br>
+    </p>
+    <p>Инструмент</p>
+    <p>Отпилочный</p>
+    <p>Сверлилный</p>
+    <p>сверло</p>
+    <p>Пинцет</p>
+    <p><br>
+    </p>
+    <p>ламинатор FGK-320</p>
+    <p><br>
+    </p>
+    <p>принтер для печати на твердых поверхностях</p>
+    <p><a href="https://cdls.by/printer-dlya-pechati-na-tverdyh-poverhnostyah-plastik-metall-steklo-i-keramika/">https://cdls.by/printer-dlya-pechati-na-tverdyh-poverhnostyah-plastik-metall-steklo-i-keramika/</a></p>
+    <p><a href="https://pikabu.ru/story/lazernaya_garazhnaya_masterskaya_oborudovanie_post_1_uf_printer_6497488">https://pikabu.ru/story/lazernaya_garazhnaya_masterskaya_oborudovanie_post_1_uf_printer_6497488</a></p>
+    <p><a href="https://printx.spb.ru/chavo/">https://printx.spb.ru/chavo/</a></p>
+    <p><a href="https://24gadget.ru/1161067997-ruchnoy-mini-printer-dlya-pechati-na-lyuboy-poverhnosti.html">https://24gadget.ru/1161067997-ruchnoy-mini-printer-dlya-pechati-na-lyuboy-poverhnosti.html</a></p>
+    <p><br>
+    </p>
+    <p><br>
+    </p>
+    <p>резать, ножовкой по металлу + стусло,<br>
+      сверлить, шуруповертом или дремелью </p>
+    <p><br>
+    </p>
+    <p>Про обработку краев еще забыли. Текстолит отлично берет мини-дрель
+      (гравер) с наждачным барбаном. Только при этом образуется много вредной
+      стеклянной пыли, так что работать лучше в респираторе. </p>
+    <p><br>
+    </p>
+    <p><br>
+    </p>
+    <p>Ванночка</p>
+    <p><br>
+    </p>
+    <p><br>
+    </p>
+    <p><a href="https://www.artem.ru/">https://www.artem.ru/</a></p>
+    <p><a href="https://www.youtube.com/c/%D0%9F%D0%B0%D1%8F%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA%D0%9F/videos">https://www.youtube.com/c/%D0%9F%D0%B0%D1%8F%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA%D0%9F/videos</a></p>
+    <p><br>
+    </p>
+    <p>Перепробовал почти все включая подложки от самоклейки, фотобумагу,
+      фольгу, кальку, журналы...<br>
+      <br>
+      Остановился на факсовой термобумаге. Печатаю на "термо"-стороне, правда
+      лист чернеет, но переводится идеально, сильно прижимать утюг не нужно
+      (даже вредно), тонер в бумагу не проникает, а сама бумага с обратной
+      стороны без какого-либо покрытия - очень легко намокает и отстает. Все
+      получается с первого раза, брака еще не было.<br>
+      Толщина дорог где-то 0.1 мм получается без проблем </p>
+    <p><br>
+    </p>
+    <p>Что касается ЛУТ, то в сети можно найти много разных способов, каждый со
+      своими особенностями. Кто-то нашел свой ЛУТ с использованием фольги,
+      кто-то -- с фотобумагой.... Мой ЛУТ -- максимальная экономия при
+      изготовлении плат (делаю не часто и для себя) и безопасность для
+      домочадцев -- для переноса рисунка использую, как уже говорил ранее,
+      бумагу для выпечки (рулон 8 метров ~20руб), травлю раствором: перекись
+      водорода (в аптеке ~9руб) + лимонная кислота (в продуктовом ~20руб) +
+      поваренная соль (в том же продуктовом ~20руб).<br>
+      Самый большой плюс -- дома никакой специальной химии: соль, лимонная
+      кислота - на кухне, перекись - в аптечке.</p>
+    <p><br>
+    </p>
+    <p>Принтер российского производства</p>
+    <p><a href="https://fplusimaging.ru/printery/?yclid=7509905611791566512">https://fplusimaging.ru/printery/?yclid=7509905611791566512</a></p>
+    <p><a href="https://fpluspro.ru/about">https://fpluspro.ru/about</a></p>
+    <p>Катюша</p>
+    <p><a href="https://katusha-it.ru/">https://katusha-it.ru/</a></p>
+    <p><a href="https://www.yaplakal.com/forum7/topic1675502.html">https://www.yaplakal.com/forum7/topic1675502.html</a></p>
+    <p><a href="https://sdelanounas.ru/blogs/83322/">https://sdelanounas.ru/blogs/83322/</a></p>
+    <p>Российские принтеры</p>
+    <p><a href="https://lpmprinter.ru/">https://lpmprinter.ru/</a></p>
+    <p><br>
+    </p>
+    <p><br>
+    </p>
+    <p><br>
+    </p>
+    <p><a href="https://1500py470.livejournal.com/295973.html">https://1500py470.livejournal.com/295973.html</a></p>
+    <p><a href="https://habr.com/ru/post/68271/">https://habr.com/ru/post/68271/</a></p>
+    <p><br>
+    </p>
+    <p>Часы на советских индикаторах ИН</p>
+    <p><a href="https://zen.yandex.ru/media/pastindicator/lampy-za-schet-kotoryh-procvetali-zavody-v-sssr-stali-roskoshiu-6193ac1fc31ed9109c2bce21?&amp;">https://zen.yandex.ru/media/pastindicator/lampy-za-schet-kotoryh-procvetali-zavody-v-sssr-stali-roskoshiu-6193ac1fc31ed9109c2bce21?&amp;</a></p>
+    <p><br>
+    </p>
+    <p>Про войну</p>
+    <p><a href="https://zen.yandex.ru/media/sports.ru/angliiskii-jurnalist-rasskazyvaet-kak-russkie-spasli-ego-deda-v-stalingrade-619d4ed87a0f800fd20b70b2?&amp;">https://zen.yandex.ru/media/sports.ru/angliiskii-jurnalist-rasskazyvaet-kak-russkie-spasli-ego-deda-v-stalingrade-619d4ed87a0f800fd20b70b2?&amp;</a></p>
+    <p><br>
+    </p>
+    <p>Бизнес пицца)</p>
+    <p><a href="https://zen.yandex.ru/media/provincial_digital/shkolnyi-biznes-ili-moi-pervyi-opyt-borby-s-gosudarstvennoi-monopoliei-61b6cd784803df168387236c?&amp;">https://zen.yandex.ru/media/provincial_digital/shkolnyi-biznes-ili-moi-pervyi-opyt-borby-s-gosudarstvennoi-monopoliei-61b6cd784803df168387236c?&amp;</a></p>
+    <p>===============================================================</p>
+    <h2>Требования для симулятора</h2>
+    <ul>
+      <li>Отображение полигона 2 на 2 метра</li>
+      <li>Отображение системы координат</li>
+      <li>Отображение координат начала полигона</li>
+      <li>Отображение положения и ориентации всех роботов</li>
+      <li>Отображение индикаторов на роботах</li>
+      <li>Отображение расхождения положения роботов по данным одометрии и по
+        данным с видеокамеры.</li>
+      <li><br>
+      </li>
+    </ul>
+    <p>Выделение рамкой нужных роботов по нажатию левой кнопки мыши, после этого
+      появляется интерфейс в котором можно выбрать фигуру для построения.</p>
+    <p><br>
+    </p>
+    <p>По правой кнопке мыши выбор фигуры для построения</p>
+    <p>По</p>
+    <p>Выделение левой кнопкой мыши отдельных роботов и указание правой кнопокой
+      мыши точки назначения. После этого робот должен поехать в точку
+      назначения.</p>
+    <p>===============================================================</p>
+    <p><b>v1Использовать Aruco маркеры для определения положения роботов.</b></p>
+    <p>В последствии заменить их светодиодными матрицами.</p>
+    <p>Подобрать подходящую ведеокамеру, расположить маркеры на полигоне,
+      получить картинку.</p>
+    <p>Пробовать распознавать картинку и переносить её в симулятор.</p>
+    <p><br>
+    </p>
+    <p><br>
+    </p>
+    <p><br>
+    </p>
+    <p>Матриалы по 3D графике</p>
+    <p><a href="https://www.youtube.com/c/javidx9/videos">https://www.youtube.com/c/javidx9/videos</a></p>
+    <p><br>
+    </p>
+    <p>RTS на Godot engine от ScanerSoft</p>
+    <p><a href="https://youtu.be/0oWGWcssh1g">https://youtu.be/0oWGWcssh1g</a></p>
+    <p><a href="https://youtu.be/6EWjJCWIKDg">https://youtu.be/6EWjJCWIKDg</a></p>
+    <p>Очень классный стиль графики <a href="https://play.google.com/store/apps/details?id=ru.skanersoft.bunker">https://play.google.com/store/apps/details?id=ru.skanersoft.bunker</a></p>
+    <p>Игра танчики </p>
+    <p><a href="https://play.google.com/store/apps/details?id=ru.skanersoft.tanks">https://play.google.com/store/apps/details?id=ru.skanersoft.tanks</a></p>
     <p><br>
     </p>
   </body>

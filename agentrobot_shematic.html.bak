@@ -48,11 +48,18 @@
     <p>Схема 2</p>
     <p><br>
     </p>
-    <p>Общая принципиальная схема</p>
-    <p><br>
+    <p><b>Общая принципиальная схема</b></p>
+    <p><b><br>
+      </b></p>
+    <p> </p>
+    <p><b>Схема выводов микронтроллера из Datasheet стр. 26:</b></p>
+    <img src="img/shm_piout_stm32f030c8.png" alt="">
+    <p>Аналогичный рисунок из CubeMX:</p>
+    <p><img src="img/shm_stm32f030c8.png" alt="" style="width: 444px; height: 386px;"></p>
+    <p>Рекомендуемое подключение<br>
     </p>
-    <p><br>
-    </p>
+    <p>an4325-getting-started-with-stm32f030xx-and-stm32f070xx-series-hardware-development-stmicroelectronics.pdf</p>
+    <p>стр.23</p>
     <p><br>
     </p>
     <p><a href="https://habr.com/ru/post/497782/">https://habr.com/ru/post/497782/</a><br>
@@ -299,7 +306,26 @@
     <p>Российский след в западных EDA <a href="https://habr.com/ru/post/473694/">https://habr.com/ru/post/473694/</a></p>
     <p>PCAD <a href="https://intuit.ru/studies/courses/674/530/lecture/11946">https://intuit.ru/studies/courses/674/530/lecture/11946</a></p>
     <p>f</p>
-    <p><b><br>
-      </b> </p>
+    <p><b>===========================================================</b></p>
+    <p>Документация на микроконтроллер</p>
+    <p><a href="https://www.st.com/en/microcontrollers-microprocessors/stm32f030c8.html#documentation">https://www.st.com/en/microcontrollers-microprocessors/stm32f030c8.html#documentation</a></p>
+    <p>а</p>
+    <p>Изготовление печатной платы для stm32</p>
+    <p><a href="http://www.stm32res.ru/ru/STM32F030F4P6_hm">http://www.stm32res.ru/ru/STM32F030F4P6_hm</a></p>
+    <p><a href="http://www.avrki.ru/articles/content/avr_stm/">http://www.avrki.ru/articles/content/avr_stm/</a></p>
+    <p><a href="https://www.mikrocontroller.net/articles/Datei:STM32F103C8T6_MiniDevBoard_Schematic.png">https://www.mikrocontroller.net/articles/Datei:STM32F103C8T6_MiniDevBoard_Schematic.png</a></p>
+    <p><a href="https://easyeda.com/modules/STM32F0_3ca9d1a3f7374019b6a20973ffd5ab59">https://easyeda.com/modules/STM32F0_3ca9d1a3f7374019b6a20973ffd5ab59</a></p>
+    <p>Начинаем изучать микроконтроллеры на примере STM32F030f4p6</p>
+    <p><a href="https://habr.com/ru/post/437234/">https://habr.com/ru/post/437234/</a></p>
+    <p>===========================================================</p>
+    <h2>TODO</h2>
+    <ul>
+      <li>Добавить в схему пользовательскую кнопку</li>
+      <li>Добавить в схему светодиод питания</li>
+      <li>Добавить в схему пользовательский светодиод</li>
+      <li>Добавить в схему подключение светодиодной матрицы</li>
+      <li>Добавить в схему подключение TSOPов</li>
+      <li>esp-01</li>
+    </ul>
   </body>
 </html>

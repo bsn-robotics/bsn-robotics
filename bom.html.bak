@@ -7,38 +7,24 @@
   <body>
     <h2>Список электронных компонентов на плату</h2>
     <p></p>
-    <p>Микроконтроллер и обвязка<br>
+    <p><span style="color: #999999;">Микроконтроллер STM32F103C8T6 1 шт 290р
+        (чип и дип )</span></p>
+    <p>Микроконтроллер STM32F030C8T6 1 шт 170р (Электронщик)</p>
+    <p>Кварц 8 МГц 1 шт</p>
+    <p>Кварц на 32.768 кГц 1 шт</p>
+    <p>Линейный стабилизатор напряжения LM1117 TI (посмотреть как сделано на
+      ардуино или Blue Pill) или AMS1117-3.3 (робошоп)<br>
       <br>
-      &nbsp;&nbsp;&nbsp; Микроконтроллер F103C8T6 1 шт 290р (чип и дип )<br>
-      &nbsp;&nbsp;&nbsp; или F100C8T6 105р (робошоп)<br>
-      &nbsp;&nbsp;&nbsp; Кварц 8 МГц 1 шт<br>
-      &nbsp;&nbsp;&nbsp; Кварц на 32.768 кГц 1 шт<br>
-      &nbsp;&nbsp;&nbsp; Линейный стабилизатор напряжения LM1117 TI (посмотреть
-      как сделано на ардуино или Blue Pill)<br>
-      &nbsp;&nbsp;&nbsp; или AMS1117-3.3 (робошоп)<br>
-      <br>
-      Драйвер двигателей и обвязка<br>
-      <br>
-      Энкодеры<br>
+      Драйвер двигателей dv8833<br>
       <br>
       Датчик препятствия<br>
       <br>
-      ИК-применик<br>
+      ИК-приёмник TSOP 4838<br>
       <br>
-      <br>
-      Компоненты на плату<br>
-      <br>
-      &nbsp;&nbsp;&nbsp; Конденсатор 1000 мкФ 50В<br>
-      &nbsp;&nbsp;&nbsp; Резистор 220 Ом</p>
-    <p><br>
-    </p>
-    <h3>Библиотеки компонентов</h3>
-    <p> <a href="https://altiumlibrary.com/">https://altiumlibrary.com/</a><br>
-      <br>
-      <a href="https://www.ultralibrarian.com/">https://www.ultralibrarian.com/</a><br>
-    </p>
-    <p>DRV8833 в корпусе HTSSOP-16 </p>
-    <p>========================================================</p>
+      Конденсатор</p>
+    <p>Резистор</p>
+    <p>Энкодер</p>
+    <h2>Материалы по каждому компоненту из списка</h2>
     <p><b>Кварц 8 МГц</b></p>
     <p>тип корпуса HC-49S</p>
     <p><a href="https://www.platan.ru/cgi-bin/qwery.pl/id=2013051596">https://www.platan.ru/cgi-bin/qwery.pl/id=2013051596</a></p>
@@ -59,34 +45,33 @@
         https://www.chipdip.ru/product/pls-10</a><br>
       <br>
       <a href="https://www.promelec.ru/articles/530/">https://www.promelec.ru/articles/530/</a></p>
-    <p>f<br>
-    </p>
-    <p><b>Светодиоды 0603</b></p>
-    <p><a href="https://asenergi.com/catalog/svetodiody-smd/smd-0603.html">https://asenergi.com/catalog/svetodiody-smd/smd-0603.html</a></p>
-    <p><a href="https://go-radio.ru/razmery-smd-rezistorov.html">https://go-radio.ru/razmery-smd-rezistorov.html</a></p>
-    <p><a href="http://electricalschool.info/information/2052-smd-rezistory-vidy-parametry-i-harakteristiki.html">http://electricalschool.info/information/2052-smd-rezistory-vidy-parametry-i-harakteristiki.html</a></p>
-    <p><a href="https://pcbdesigner.ru/file-archive/korpusa-smd-chip-rezistorov-dlya-poverhnostnogo-smt-montazha-3d-cad-step-model.html">https://pcbdesigner.ru/file-archive/korpusa-smd-chip-rezistorov-dlya-poverhnostnogo-smt-montazha-3d-cad-step-model.html</a></p>
-    <p>а</p>
+    <br>
     <p><b>Микросхема драйвер двигателей drv8833<br>
       </b></p>
     <p>спецификация - <a href="https://www.ti.com/lit/ds/symlink/drv8833.pdf">https://www.ti.com/lit/ds/symlink/drv8833.pdf</a></p>
-    <p>drv8833 схема подключения:</p>
-    <p><b><a href="https://alex-exe.ru/radio/robotics/driver-collectors-motor-drv8833/">https://alex-exe.ru/radio/robotics/driver-collectors-motor-drv8833/</a></b></p>
+    <p>drv8833 схема подключения</p>
+    <p><a href="https://alex-exe.ru/radio/robotics/driver-collectors-motor-drv8833/">https://alex-exe.ru/radio/robotics/driver-collectors-motor-drv8833/</a></p>
     <p>Дополнительно:</p>
-    <p><a href="https://youtu.be/Z-crGAj94-0">https://youtu.be/Z-crGAj94-0</a>
-    </p>
+    <p><a href="https://youtu.be/Z-crGAj94-0">https://youtu.be/Z-crGAj94-0</a> </p>
     <p><a href="https://iarduino.ru/shop/Expansion-payments/drayver-motorov-dvuhkanalnyy-drv8833.html">https://iarduino.ru/shop/Expansion-payments/drayver-motorov-dvuhkanalnyy-drv8833.html</a></p>
     <p><br>
     </p>
     <p>TSSOP-16 или HTSSOP-16</p>
     <p>pwp16</p>
+    <p><b>Резистор smd в корпусе 0805</b></p>
+    <p><b>Конденсатор smd в корпусе 0805</b></p>
     <p></p>
+    <p><b>Светодиод smd в корпусе 0805</b></p>
     <p><br>
     </p>
-    <p><br>
-    </p>
-    <p>Библиотека компонентов pcad</p>
-    <p><a href="https://www.qrz.ru/software/detail/pcad_4_5_biblioteka_komponentov_619">https://www.qrz.ru/software/detail/pcad_4_5_biblioteka_komponentov_619</a></p>
+    <p><b>Светодиоды 0603</b> </p>
+    <p><a href="https://asenergi.com/catalog/svetodiody-smd/smd-0603.html">https://asenergi.com/catalog/svetodiody-smd/smd-0603.html</a></p>
+    <p><a href="https://go-radio.ru/razmery-smd-rezistorov.html">https://go-radio.ru/razmery-smd-rezistorov.html</a></p>
+    <p><a href="http://electricalschool.info/information/2052-smd-rezistory-vidy-parametry-i-harakteristiki.html">http://electricalschool.info/information/2052-smd-rezistory-vidy-parametry-i-harakteristiki.html</a></p>
+    <p><a href="https://pcbdesigner.ru/file-archive/korpusa-smd-chip-rezistorov-dlya-poverhnostnogo-smt-montazha-3d-cad-step-model.html">https://pcbdesigner.ru/file-archive/korpusa-smd-chip-rezistorov-dlya-poverhnostnogo-smt-montazha-3d-cad-step-model.html</a></p>
+    <p>а</p>
+    <p> </p>
+    <br>
     <p><br>
     </p>
     <p>========================================================</p>
@@ -381,6 +366,18 @@
     <p>Источник</p>
     <p><a href="https://easyeda.com/r3bers/STM32F103C8T6-Test-Board">https://easyeda.com/r3bers/STM32F103C8T6-Test-Board</a></p>
     <p>а</p>
+    <h2>Библиотеки компонентов</h2>
+    <p> <a href="https://altiumlibrary.com/">https://altiumlibrary.com/</a><br>
+      <br>
+      <a href="https://www.ultralibrarian.com/">https://www.ultralibrarian.com/</a><br>
+    </p>
+    <p>DRV8833 в корпусе HTSSOP-16 </p>
+    <p>Библиотека компонентов pcad <a href="https://www.qrz.ru/software/detail/pcad_4_5_biblioteka_komponentov_619">https://www.qrz.ru/software/detail/pcad_4_5_biblioteka_komponentov_619</a></p>
+    <p></p>
+    <p> </p>
     <br>
+    <h2>TODO</h2>
+    <p>Добавить описание конденсаторов и резисторов корпусе 0805</p>
+    <p>Добавить описание светодиодов корпусе 0805</p>
   </body>
 </html>
