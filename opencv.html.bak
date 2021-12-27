@@ -60,6 +60,8 @@
     <p>./example_cpp_convexhull</p>
     <p><br>
     </p>
+    <p><br>
+    </p>
     <p>Исправление картинки example_cpp_inpaint</p>
     <p><br>
     </p>
@@ -194,6 +196,19 @@
     <p><a href="https://docs.opencv.org/master/de/d3d/tutorial_table_of_content_app.html">https://docs.opencv.org/master/de/d3d/tutorial_table_of_content_app.html</a></p>
     <p>Planar objects <a href="https://docs.opencv.org/master/dd/dd4/tutorial_detection_of_planar_objects.html">https://docs.opencv.org/master/dd/dd4/tutorial_detection_of_planar_objects.html</a></p>
     <p>video input <a href="https://docs.opencv.org/master/d5/dc4/tutorial_video_input_psnr_ssim.html">https://docs.opencv.org/master/d5/dc4/tutorial_video_input_psnr_ssim.html</a></p>
+    <p>===============================================================</p>
+    <p>Цель: научиться распознавать маркеры Arucko</p>
+    <p>Сначала уроки</p>
+    <p><a href="https://learnopencv.com/read-display-and-write-an-image-using-opencv/">https://learnopencv.com/read-display-and-write-an-image-using-opencv/</a></p>
+    <p><a href="https://api-2d3d-cad.com/intro-opencv/">https://api-2d3d-cad.com/intro-opencv/</a></p>
+    <p><a href="https://intuit.ru/studies/courses/10621/1105/lecture/17985?page=3">https://intuit.ru/studies/courses/10621/1105/lecture/17985?page=3</a></p>
+    <p><a href="https://intuit.ru/studies/courses/10621/1105/lecture/17989?page=1">https://intuit.ru/studies/courses/10621/1105/lecture/17989?page=1</a></p>
+    <p>Оператор Собеля и Лапласаи, детектор Канни</p>
+    <p><a href="https://intuit.ru/studies/courses/10621/1105/lecture/17989?page=7">https://intuit.ru/studies/courses/10621/1105/lecture/17989?page=7</a></p>
+    <p>Blob Detection Using OpenCV ( Python, C++ )</p>
+    <p><a href="https://learnopencv.com/blob-detection-using-opencv-python-c/">https://learnopencv.com/blob-detection-using-opencv-python-c/</a></p>
+    <p>Detection of ArUco Markers </p>
+    <p><a href="https://docs.opencv.org/4.5.4/d5/dae/tutorial_aruco_detection.html">https://docs.opencv.org/4.5.4/d5/dae/tutorial_aruco_detection.html</a></p>
     <p><br>
     </p>
   </body>

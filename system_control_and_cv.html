@@ -6,14 +6,37 @@
   </head>
   <body>
     <h1>Система управления и технического зрения</h1>
+    <h2>Компоненты</h2>
+    <p>RobotsRecognizer - Программа распознования роботов по видео с помощью
+      OpenCV </p>
+    <p>CommandSimulator - Программа симулятор-визуализатор и пульт управления</p>
+    <p>Transmitter - Программа выдачи сигналов управления через UART интерфейс</p>
+    <h2>Взаимодействие компонентов</h2>
+    <p>Компоненты работают в виде процессов Linux и взаимодействуют посредством
+      Linux sockets или qt-sockets.</p>
+    <p>RobotsRecognizer каждый tick посылает сообщение в CommandSimulator.</p>
+    <p>Сообщение содержит информацию о местоположении каждого робота
+      (координаты), о данных на матричном индикаторе (ответ на полученное
+      командное сообщение) в формате json.</p>
+    <p>CommandSimulator отображает положение роботов в графическом окне.</p>
+    <p>Сопоставляет полученное положение робота с расчетным положением и
+      предыдущим положением робота.</p>
+    <p>Если ответ от робота "КС за полученное сообщение не сошлась", то
+      сообщение должно выдаться повторно.</p>
+    <p>CommandSimulator должен определить у какого робота КС не сошлась и
+      передать в Transmitter запрос на повторную выдачу.</p>
+    <p>При получении сообщения с матричного индикатора робота должна проверяться
+      КС и если она не сошлась, то посылаться в Transmitter сообщение о
+      повторной выдаче сообщения.</p>
+    <p>В простейшем случае КС проверяться недолжна, для v1 программы.</p>
+    <h2>Используемые библиотеки</h2>
     <p>Qt - интерфейс</p>
     <p>OpenCV - распознавание маркера</p>
-    <p>SFML - симулятор</p>
+    <p><span style="color: #666666;">SFML - симулятор</span></p>
     <p>raylib - симулятор</p>
     <p><br>
     </p>
-    <p><br>
-    </p>
+    <h2>Работа с библиотекой SFML</h2>
     <p>LD_PRELOAD. LD_PRELOAD=/path/to/your/curl/libcurl.so.4</p>
     <p><a href="https://www.firststeps.ru/linux/r.php?7">https://www.firststeps.ru/linux/r.php?7</a></p>
     <p><br>
@@ -88,6 +111,15 @@ LD_LIBRARY_PATH=/media/sergius/C43A7E5B3A7E4B06/data/projects/ITMO/NIR/SFML/SFML
     <p><br>
     </p>
     <p><a href="http://develnoter.blogspot.com/2012/05/integrating-opencv-in-qt-gui.html">http://develnoter.blogspot.com/2012/05/integrating-opencv-in-qt-gui.html</a></p>
+    <h2>Работа с библиотекой raylib</h2>
+    <p>-</p>
+    <h2>Работа с библиотекой OpenCV</h2>
+    <p><a href="https://linuxize.com/post/how-to-install-opencv-on-ubuntu-20-04/">https://linuxize.com/post/how-to-install-opencv-on-ubuntu-20-04/</a></p>
+    <p>OpenCV доступна для установки из репозиториев для Ubuntu 20.04.</p>
+    <p><code>sudo apt update</code></p>
+    <p><code>sudo apt install libopencv-dev python3-opencv</code></p>
+    <p> </p>
+    <h2>Алгоритм работы системы</h2>
     <p>*********************************************</p>
     <p>Цикл обработки каждую секунду:</p>
     <ul>
@@ -104,7 +136,7 @@ LD_LIBRARY_PATH=/media/sergius/C43A7E5B3A7E4B06/data/projects/ITMO/NIR/SFML/SFML
       <li>Передача команд по UART для ИК порта или для WIFI модуля.</li>
     </ul>
     <p>**********************************************</p>
-    <p>Алгоритм распознавания маркеров:</p>
+    <h2>Алгоритм распознавания маркеров</h2>
     <p><b>Подготовка изображения</b></p>
     <p>Условия: </p>
     <ul>
@@ -172,6 +204,14 @@ LD_LIBRARY_PATH=/media/sergius/C43A7E5B3A7E4B06/data/projects/ITMO/NIR/SFML/SFML
     <p>=============================================================</p>
     <p>raylib 4.0.0</p>
     <p>export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib</p>
-    <br>
+    <p> </p>
+    <h2>TODO</h2>
+    <p>Собрать raylib +</p>
+    <p>Собрать OpenCV -</p>
+    <p>Запустить opencv вместе с qt</p>
+    <p><br>
+    </p>
+    <p><br>
+    </p>
   </body>
 </html>

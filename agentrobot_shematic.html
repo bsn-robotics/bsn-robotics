@@ -49,16 +49,23 @@
     <p><br>
     </p>
     <p><b>Общая принципиальная схема</b></p>
-    <img src="img/shm_main.png" alt="" style="width: 1535px; height: 699px;">
+    <img src="img/shm_main_v1.png" alt=""><br>
     <p> </p>
     <p><b>Схема выводов микронтроллера из Datasheet стр. 26:</b></p>
-    <img src="img/shm_piout_stm32f030c8.png" alt="">
+    <img src="img/shm_pinout_stm32f030c8.png">
     <p>Аналогичный рисунок из CubeMX:</p>
     <p><img src="img/shm_stm32f030c8.png" alt="" style="width: 444px; height: 386px;"></p>
     <p>Рекомендуемое подключение<br>
     </p>
     <p>an4325-getting-started-with-stm32f030xx-and-stm32f070xx-series-hardware-development-stmicroelectronics.pdf</p>
     <p>стр.23</p>
+    <p>==============================================================</p>
+    <p>Для stm32g030c8 </p>
+    <p>Схема выводов микронтроллера из Datasheet стр. 29:</p>
+    <img src="img/shm_pinout_stm32g030c8.png" style="width: 556px; height: 486px;">
+    <p><br>
+    </p>
+    <p>==============================================================</p>
     <p><br>
     </p>
     <p><a href="https://habr.com/ru/post/497782/">https://habr.com/ru/post/497782/</a><br>
@@ -320,11 +327,71 @@
     <h2>TODO</h2>
     <ul>
       <li>Добавить в схему пользовательскую кнопку</li>
-      <li>Добавить в схему светодиод питания</li>
-      <li>Добавить в схему пользовательский светодиод</li>
+      <li>Добавить в схему красный светодиод питания</li>
+      <li>Добавить в схему зеленый пользовательский светодиод</li>
+      <li>Добавить в схему RGB светодиод</li>
       <li>Добавить в схему подключение светодиодной матрицы</li>
       <li>Добавить в схему подключение TSOPов</li>
       <li>esp-01</li>
+    </ul>
+    <p>===========================================================</p>
+    <p>Выбор микросхемы для управления светодиодной матрицей</p>
+    <p>Микросхема max7219 не подходит, т.к. питается от напряжение 5 В</p>
+    <p>Надо использовать например HT16K33</p>
+    <p><a href="https://shop.robotclass.ru/index.php?route=product/product&amp;product_id=733&amp;frc=1&amp;pdata=3297&amp;adata=21232f297a57a5a743894a0e4a801fc3">https://shop.robotclass.ru/index.php?route=product/product&amp;product_id=733&amp;frc=1&amp;pdata=3297&amp;adata=21232f297a57a5a743894a0e4a801fc3</a></p>
+    <p><a href="https://robotclass.ru/tutorials/roc-matrix-8x8-holtek/">https://robotclass.ru/tutorials/roc-matrix-8x8-holtek/</a></p>
+    <p>Или использовать 2 сдвиговых регистра</p>
+    <p><a href="https://robotclass.ru/tutorials/arduino-led-matrix-8x8/">https://robotclass.ru/tutorials/arduino-led-matrix-8x8/</a></p>
+    <p>Купить модуль</p>
+    <p><a href="https://amperkot.ru/spb/catalog/ht16k33_multifunktsionalnyiy_drayver_matritsyi_led_i_klaviaturyi-32749304.html">https://amperkot.ru/spb/catalog/ht16k33_multifunktsionalnyiy_drayver_matritsyi_led_i_klaviaturyi-32749304.html</a></p>
+    <p>============================================================</p>
+    <p>Посотреть как сделаны отладочные платы от STM,</p>
+    <p>какая обвзяка у </p>
+    <p>По питанию какие конденсаторы нужны</p>
+    <p><br>
+    </p>
+    <p>Для ams1117</p>
+    <p>10uF -&gt; 22uF</p>
+    <p><br>
+    </p>
+    <h2><br>
+    </h2>
+    <p>============================================================</p>
+    <h2>Доп материалы</h2>
+    <p><br>
+    </p>
+    <p>dave board stm32g030</p>
+    <p><a href="https://aliexpress.ru/item/32865178715.html?sku_id=65506032692">https://aliexpress.ru/item/32865178715.html?sku_id=65506032692</a></p>
+    <p><a href="https://electronics.stackexchange.com/questions/598336/stm32g030-boot0-pin-swclk">https://electronics.stackexchange.com/questions/598336/stm32g030-boot0-pin-swclk</a></p>
+    <p>=================================</p>
+    <p>Заказать в чип идип недостающие детали</p>
+    <p>Кварц</p>
+    <p>Светодиоды</p>
+    <p><br>
+    </p>
+    <p><b>v1 pcb</b></p>
+    <p>Набросок печатной платы</p>
+    <img src="img/pcb_v1.png" alt="" style="width: 783px; height: 503px;"><br>
+    <p><b>v2 pcb</b></p>
+    <p>Может стоит ams1117 сместить левее и повернуть против часовой на 90
+      градусов?</p>
+    <p>контакты для моторов использовать нижниие, а для питания от аккумулятора
+      верхние</p>
+    <p>Плата одностороннняя </p>
+    <p>Кварц близко с конденсаторами близк к микроконтроллеру</p>
+    <p>Конденасторы по питанию близко к + и - Микроконтрорллера</p>
+    <p>Tsop на краю платы, чтобы можно было загнуть на друггую сторону.</p>
+    <p>Конденсаторы напаивать прямо на контакты двигателя (100 nF).</p>
+    <p>1206 резисторы нулевки добавить, чтобы можно было перебросить.</p>
+    <p>Разве 10 рной разъем не помещается?</p>
+    <p>Перерисовать footprint drv8833 так чтобы можно было под корпусом
+      проводить дорожки.</p>
+    <p><a href="http://microsin.net/adminstuff/others/kicad-howto-create-new-pcb.html">http://microsin.net/adminstuff/others/kicad-howto-create-new-pcb.html</a></p>
+    <p><a href="https://www.yandex.ru/search/?clid=2186621&amp;text=kikad+pcb+%D0%BF%D0%B5%D1%80%D0%B5%D0%BD%D0%B5%D1%81%D1%82%D0%B8+%D0%B1%D0%BB%D0%BE%D0%BA&amp;rdrnd=63610&amp;lr=2&amp;redircnt=1640604755.1">https://www.yandex.ru/search/?clid=2186621&amp;text=kikad+pcb+%D0%BF%D0%B5%D1%80%D0%B5%D0%BD%D0%B5%D1%81%D1%82%D0%B8+%D0%B1%D0%BB%D0%BE%D0%BA&amp;rdrnd=63610&amp;lr=2&amp;redircnt=1640604755.1</a></p>
+    <p><br>
+    </p>
+    <p> </p>
+    <ul>
     </ul>
   </body>
 </html>
