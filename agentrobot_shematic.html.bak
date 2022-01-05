@@ -52,7 +52,7 @@
     <img src="img/shm_main_v1.png" alt=""><br>
     <p> </p>
     <p><b>Схема выводов микронтроллера из Datasheet стр. 26:</b></p>
-    <img src="img/shm_piout_stm32f030c8.png" alt="">
+    <img src="img/shm_pinout_stm32f030c8.png">
     <p>Аналогичный рисунок из CubeMX:</p>
     <p><img src="img/shm_stm32f030c8.png" alt="" style="width: 444px; height: 386px;"></p>
     <p>Рекомендуемое подключение<br>
@@ -62,7 +62,7 @@
     <p>==============================================================</p>
     <p>Для stm32g030c8 </p>
     <p>Схема выводов микронтроллера из Datasheet стр. 29:</p>
-    <img src="img/shm_piout_stm32g030c8.png" alt="" style="width: 556px; height: 486px;">
+    <img src="img/shm_pinout_stm32g030c8.png" style="width: 556px; height: 486px;">
     <p><br>
     </p>
     <p>==============================================================</p>
@@ -371,7 +371,7 @@
     </p>
     <p><b>v1 pcb</b></p>
     <p>Набросок печатной платы</p>
-    <img src="img/pcb_v1.png" alt="" style="width: 783px; height: 503px;"><br>
+    <img src="img/pcb_v5.png" style="width: 783px; height: 503px;"><br>
     <p><b>v2 pcb</b></p>
     <p>Может стоит ams1117 сместить левее и повернуть против часовой на 90
       градусов?</p>
@@ -388,6 +388,14 @@
       проводить дорожки.</p>
     <p><a href="http://microsin.net/adminstuff/others/kicad-howto-create-new-pcb.html">http://microsin.net/adminstuff/others/kicad-howto-create-new-pcb.html</a></p>
     <p><a href="https://www.yandex.ru/search/?clid=2186621&amp;text=kikad+pcb+%D0%BF%D0%B5%D1%80%D0%B5%D0%BD%D0%B5%D1%81%D1%82%D0%B8+%D0%B1%D0%BB%D0%BE%D0%BA&amp;rdrnd=63610&amp;lr=2&amp;redircnt=1640604755.1">https://www.yandex.ru/search/?clid=2186621&amp;text=kikad+pcb+%D0%BF%D0%B5%D1%80%D0%B5%D0%BD%D0%B5%D1%81%D1%82%D0%B8+%D0%B1%D0%BB%D0%BE%D0%BA&amp;rdrnd=63610&amp;lr=2&amp;redircnt=1640604755.1</a></p>
+    <p><a href="https://youtu.be/WFivXWEqOZs">https://youtu.be/WFivXWEqOZs</a></p>
+    <p>5 <a href="https://www.youtube.com/watch?v=J21e0UE4bUY">https://www.youtube.com/watch?v=J21e0UE4bUY</a></p>
+    <p><a href="https://www.youtube.com/watch?v=98oOgllyQB4">https://www.youtube.com/watch?v=98oOgllyQB4</a></p>
+    <p><a href="https://www.youtube.com/watch?v=qXZUOuXKIFg">https://www.youtube.com/watch?v=qXZUOuXKIFg</a></p>
+    <p><a href="https://www.youtube.com/watch?v=Rbf7AZkfNwQ">https://www.youtube.com/watch?v=Rbf7AZkfNwQ</a></p>
+    <p><a href="https://www.youtube.com/watch?v=Mgyl3Uo7z28">https://www.youtube.com/watch?v=Mgyl3Uo7z28</a></p>
+    <p>Изготовление печатных плат. Куприт <a href="https://youtu.be/dbzT5wQjMuo">https://youtu.be/dbzT5wQjMuo</a></p>
+    <p><a href="https://www.youtube.com/watch?v=2sISKRJSLBo">https://www.youtube.com/watch?v=2sISKRJSLBo</a></p>
     <p><br>
     </p>
     <p> </p>
